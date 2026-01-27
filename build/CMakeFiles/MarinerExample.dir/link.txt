@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -arch x86_64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -g CMakeFiles/MarinerExample.dir/examples/main.cpp.o -o MarinerExample  -Wl,-rpath,/Users/julien/Developer/Mariner/build -Wl,-rpath,/usr/local/lib libMariner.dylib /usr/local/lib/libglfw.3.4.dylib
