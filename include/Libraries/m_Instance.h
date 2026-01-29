@@ -10,21 +10,19 @@ namespace Mariner {
 
     namespace Libraries {
 
-        class m_InstanceLib {
+        class m_Instance {
 
             public:
 
-                static m_InstanceLib* OpenLibrary();
-
                 template<typename T>
-                T* New() {
+                static T* New() {
 
                     return T::New();
 
                 }
 
                 template<typename T>
-                T* FromExisting() {
+                static T* FromExisting() {
 
                     return T::New();
 
@@ -34,8 +32,8 @@ namespace Mariner {
 
             private:
 
-                m_InstanceLib() = default;
-                virtual ~m_InstanceLib() = default;
+                m_Instance() = default;
+                virtual ~m_Instance() = default;
 
         };
         

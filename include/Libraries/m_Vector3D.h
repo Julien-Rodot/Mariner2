@@ -11,26 +11,17 @@ namespace Mariner {
     
     namespace Libraries {
 
-        class m_Vector3DLib {
+        class m_Vector3D {
 
             public:
 
-                static m_Vector3DLib* OpenLibrary();
+                static m_Vector3D New(float x, float y, float z);
 
                 float x = 0;
                 float y = 0;
                 float z = 0;
 
-                m_Vector3DLib New(float x, float y, float z) {
-
-                    this->x = x;
-                    this->y = y;
-                    this->z = z;
-                    return *this;
-
-                }
-
-                void operator=(m_Vector3DLib OtherVector) {
+                void operator=(m_Vector3D OtherVector) {
 
                     this->x = OtherVector.x;
                     this->y = OtherVector.y;
@@ -38,8 +29,8 @@ namespace Mariner {
 
                 }
 
-                m_Vector3DLib() = default;
-                virtual ~m_Vector3DLib() = default;
+                m_Vector3D() = default;
+                virtual ~m_Vector3D() = default;
 
             protected:
 

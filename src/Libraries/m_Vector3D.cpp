@@ -11,12 +11,17 @@ namespace Mariner {
     
     namespace Libraries {
 
-        m_Vector3DLib* m_Vector3DLib::OpenLibrary() {
+        m_Vector3D m_Vector3D::New(float x, float y, float z) {
 
-            return new m_Vector3DLib();
-
-        };
+            m_Vector3D* Vector = new m_Vector3D();
+            Vector->x = x;
+            Vector->y = y;
+            Vector->z = z;
+            return *Vector;
         
+        }
+
+
     } // namespace Libraries
     
 } // namespace Mariner

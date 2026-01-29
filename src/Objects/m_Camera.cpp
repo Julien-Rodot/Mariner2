@@ -16,6 +16,7 @@ namespace Mariner {
             m_Camera* Instance = new m_Camera();
             Instance->Name = "Camera";
             Instance->ClassName = "m_Camera";
+            Instance->Position = Mariner::Libraries::m_Vector3D::New(0,0,3);
             Instance->CameraRunLoop();
             return Instance;
 

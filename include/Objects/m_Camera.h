@@ -19,7 +19,11 @@ namespace Mariner {
             public:
 
                 static m_Camera* New();
-                Mariner::Libraries::m_Vector3DLib Position;
+
+                Mariner::Libraries::m_Vector3D Position;
+                Mariner::Libraries::m_Vector3D Front = Mariner::Libraries::m_Vector3D::New(0,0,-1);
+                Mariner::Libraries::m_Vector3D Up = Mariner::Libraries::m_Vector3D::New(0,1,0);
+
                 Mariner::Objects::m_BasePart* CameraSubject = nullptr;
 
             protected:

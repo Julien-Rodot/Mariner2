@@ -33,8 +33,9 @@ namespace Mariner {
 
             }
 
-            //glClearColor(0.05f, 0.05f, 0.08f, 1.0f);
-            //glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+            // if you see bright magenta smth horrible went wrong
+            glClearColor(1.0f, 0.0f, 1.0f, 1.0f);
+            glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
             glfwSwapBuffers(WindowPointer);
 
         };
@@ -66,14 +67,15 @@ namespace Mariner {
             }
 
             glfwMakeContextCurrent(WindowPointer);
-            glEnable(GL_DEPTH_TEST);
-            glDepthFunc(GL_LESS);
 
             if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) {
 
                 throw std::runtime_error("Oh fuck! Mariner coudnt get GLAD loaded!");
 
             }
+
+            glEnable(GL_DEPTH_TEST);
+            glDepthFunc(GL_LESS);
 
             glViewport(0, 0, this->SizeX, this->SizeY);
 

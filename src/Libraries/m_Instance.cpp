@@ -10,13 +10,8 @@ namespace Mariner {
 
     namespace Libraries {
 
-        m_InstanceLib* m_InstanceLib::OpenLibrary() {
+        // IMPLEMENTATION IN H FILE.
 
-            static m_InstanceLib* Instance = new m_InstanceLib();
-            return Instance;
-
-        }
-        
     } // namespace Libraries
     
 } // namespace Mariner

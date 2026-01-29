@@ -1,5 +1,6 @@
 #include "Mariner/Mariner.h"
 #include <print>
+#include <iostream>
 
 using namespace Mariner;
 using namespace Mariner::Utils;
@@ -14,8 +15,31 @@ int main() {
     auto RunService = m_Game->GetService<m_RunService>();
     auto MessageBusService = m_Game->GetService<m_MessageBusService>();
 
-    auto MyPart = m_Instance->New<m_BasePart>();
-    MyPart->Position = m_Vector3D->New(20,20,20);
+    auto MyPart = m_Instance::New<m_BasePart>();
+    MyPart->Position = m_Vector3D::New(20,20,20);
+
+    m_Matrix<double> MyMatrix = {
+
+        {1, 2, 3},
+        {4, 5, 6},
+        {7, 8, 9},
+
+    };
+
+    m_Matrix<double> MyMatrix2 = {
+
+        {3, 2, 7},
+        {4, 7, 6},
+        {7, 2, 1},
+
+    };
+
+    m_Matrix<double> Multiplied1 = MyMatrix * MyMatrix2;
+    Multiplied1.Print();
+
+    m_Matrix<double> Multiplied2 = MyMatrix2 * MyMatrix;
+    Multiplied2.Print();
+
     
     auto Camera = Workspace->CurrrentCamera;
     Camera->CameraSubject = MyPart;

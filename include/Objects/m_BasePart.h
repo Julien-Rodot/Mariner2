@@ -18,7 +18,7 @@ namespace Mariner {
             public:
 
                 static m_BasePart* New();
-                Mariner::Libraries::m_Vector3DLib Position;
+                Mariner::Libraries::m_Vector3D Position;
                
             protected:
 

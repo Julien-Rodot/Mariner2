@@ -6,6 +6,7 @@
 #include "Libraries/m_Signal.h"
 #include "Libraries/m_SignalConnection.h"
 #include "Libraries/m_Vector3D.h"
+#include "Libraries/m_Matrix.h"
 #include "Utils/m_Memory.h"
 #include "Objects/m_Object.h"
 #include "Objects/m_DataModel.h"
@@ -44,5 +45,3 @@ struct InitalizeMariner {
 static InitalizeMariner Initialize;
 
 inline Mariner::Objects::m_DataModel* m_Game = Mariner::Objects::m_DataModel::New();
-inline Mariner::Libraries::m_InstanceLib* m_Instance = Mariner::Libraries::m_InstanceLib::OpenLibrary();
-inline Mariner::Libraries::m_Vector3DLib* m_Vector3D = Mariner::Libraries::m_Vector3DLib::OpenLibrary();
