@@ -4,9 +4,9 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/julien/Developer/Mariner/include
+CXX_INCLUDES = -I/Users/28rj102230/Developer/Mariner/include -I/Users/28rj102230/Developer/Mariner/extern/glad/include -isystem /Users/28rj102230/homebrew/include
 
-CXX_FLAGSx86_64 = -g -std=gnu++2b -arch x86_64 -g -O0
+CXX_FLAGSarm64 = -g -std=gnu++2b -arch arm64 -g -O0
 
-CXX_FLAGS = -g -std=gnu++2b -arch x86_64 -g -O0
+CXX_FLAGS = -g -std=gnu++2b -arch arm64 -g -O0
 

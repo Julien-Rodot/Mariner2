@@ -42,6 +42,9 @@ void m_EngineContextService::CreateSomeThingsAndSetMoreShitUp() {
 
     auto MessageBusService = Mariner::Services::m_MessageBusService::New();
     MessageBusService->SetParent(DataModel);
+
+    auto Workspace = Mariner::Services::m_Workspace::New();
+    Workspace->SetParent(DataModel);
     
     return;
 

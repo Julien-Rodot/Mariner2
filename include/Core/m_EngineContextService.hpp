@@ -14,6 +14,7 @@
 #include "Services/m_TaskScheduler.h"
 #include "Services/m_MessageBusService.h"
 #include "Services/m_MemStorageService.h"
+#include "Services/m_Workspace.h"
 
 class m_EngineContextService {
 

@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /Users/28rj102230/homebrew/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E rm -f
+RM = /Users/28rj102230/homebrew/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/julien/Developer/Mariner
+CMAKE_SOURCE_DIR = /Users/28rj102230/Developer/Mariner
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/julien/Developer/Mariner/build
+CMAKE_BINARY_DIR = /Users/28rj102230/Developer/Mariner/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Mariner.dir/depend.make
@@ -73,284 +73,382 @@ CMakeFiles/Mariner.dir/codegen:
 .PHONY : CMakeFiles/Mariner.dir/codegen
 
 CMakeFiles/Mariner.dir/src/App/m_AppContextService.cpp.o: CMakeFiles/Mariner.dir/flags.make
-CMakeFiles/Mariner.dir/src/App/m_AppContextService.cpp.o: /Users/julien/Developer/Mariner/src/App/m_AppContextService.cpp
+CMakeFiles/Mariner.dir/src/App/m_AppContextService.cpp.o: /Users/28rj102230/Developer/Mariner/src/App/m_AppContextService.cpp
 CMakeFiles/Mariner.dir/src/App/m_AppContextService.cpp.o: CMakeFiles/Mariner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/julien/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Mariner.dir/src/App/m_AppContextService.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/App/m_AppContextService.cpp.o -MF CMakeFiles/Mariner.dir/src/App/m_AppContextService.cpp.o.d -o CMakeFiles/Mariner.dir/src/App/m_AppContextService.cpp.o -c /Users/julien/Developer/Mariner/src/App/m_AppContextService.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/28rj102230/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Mariner.dir/src/App/m_AppContextService.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/App/m_AppContextService.cpp.o -MF CMakeFiles/Mariner.dir/src/App/m_AppContextService.cpp.o.d -o CMakeFiles/Mariner.dir/src/App/m_AppContextService.cpp.o -c /Users/28rj102230/Developer/Mariner/src/App/m_AppContextService.cpp
 
 CMakeFiles/Mariner.dir/src/App/m_AppContextService.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Mariner.dir/src/App/m_AppContextService.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/julien/Developer/Mariner/src/App/m_AppContextService.cpp > CMakeFiles/Mariner.dir/src/App/m_AppContextService.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/28rj102230/Developer/Mariner/src/App/m_AppContextService.cpp > CMakeFiles/Mariner.dir/src/App/m_AppContextService.cpp.i
 
 CMakeFiles/Mariner.dir/src/App/m_AppContextService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Mariner.dir/src/App/m_AppContextService.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/julien/Developer/Mariner/src/App/m_AppContextService.cpp -o CMakeFiles/Mariner.dir/src/App/m_AppContextService.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/28rj102230/Developer/Mariner/src/App/m_AppContextService.cpp -o CMakeFiles/Mariner.dir/src/App/m_AppContextService.cpp.s
 
 CMakeFiles/Mariner.dir/src/App/m_Application.cpp.o: CMakeFiles/Mariner.dir/flags.make
-CMakeFiles/Mariner.dir/src/App/m_Application.cpp.o: /Users/julien/Developer/Mariner/src/App/m_Application.cpp
+CMakeFiles/Mariner.dir/src/App/m_Application.cpp.o: /Users/28rj102230/Developer/Mariner/src/App/m_Application.cpp
 CMakeFiles/Mariner.dir/src/App/m_Application.cpp.o: CMakeFiles/Mariner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/julien/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Mariner.dir/src/App/m_Application.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/App/m_Application.cpp.o -MF CMakeFiles/Mariner.dir/src/App/m_Application.cpp.o.d -o CMakeFiles/Mariner.dir/src/App/m_Application.cpp.o -c /Users/julien/Developer/Mariner/src/App/m_Application.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/28rj102230/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Mariner.dir/src/App/m_Application.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/App/m_Application.cpp.o -MF CMakeFiles/Mariner.dir/src/App/m_Application.cpp.o.d -o CMakeFiles/Mariner.dir/src/App/m_Application.cpp.o -c /Users/28rj102230/Developer/Mariner/src/App/m_Application.cpp
 
 CMakeFiles/Mariner.dir/src/App/m_Application.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Mariner.dir/src/App/m_Application.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/julien/Developer/Mariner/src/App/m_Application.cpp > CMakeFiles/Mariner.dir/src/App/m_Application.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/28rj102230/Developer/Mariner/src/App/m_Application.cpp > CMakeFiles/Mariner.dir/src/App/m_Application.cpp.i
 
 CMakeFiles/Mariner.dir/src/App/m_Application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Mariner.dir/src/App/m_Application.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/julien/Developer/Mariner/src/App/m_Application.cpp -o CMakeFiles/Mariner.dir/src/App/m_Application.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/28rj102230/Developer/Mariner/src/App/m_Application.cpp -o CMakeFiles/Mariner.dir/src/App/m_Application.cpp.s
 
 CMakeFiles/Mariner.dir/src/App/m_Entry.cpp.o: CMakeFiles/Mariner.dir/flags.make
-CMakeFiles/Mariner.dir/src/App/m_Entry.cpp.o: /Users/julien/Developer/Mariner/src/App/m_Entry.cpp
+CMakeFiles/Mariner.dir/src/App/m_Entry.cpp.o: /Users/28rj102230/Developer/Mariner/src/App/m_Entry.cpp
 CMakeFiles/Mariner.dir/src/App/m_Entry.cpp.o: CMakeFiles/Mariner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/julien/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Mariner.dir/src/App/m_Entry.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/App/m_Entry.cpp.o -MF CMakeFiles/Mariner.dir/src/App/m_Entry.cpp.o.d -o CMakeFiles/Mariner.dir/src/App/m_Entry.cpp.o -c /Users/julien/Developer/Mariner/src/App/m_Entry.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/28rj102230/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Mariner.dir/src/App/m_Entry.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/App/m_Entry.cpp.o -MF CMakeFiles/Mariner.dir/src/App/m_Entry.cpp.o.d -o CMakeFiles/Mariner.dir/src/App/m_Entry.cpp.o -c /Users/28rj102230/Developer/Mariner/src/App/m_Entry.cpp
 
 CMakeFiles/Mariner.dir/src/App/m_Entry.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Mariner.dir/src/App/m_Entry.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/julien/Developer/Mariner/src/App/m_Entry.cpp > CMakeFiles/Mariner.dir/src/App/m_Entry.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/28rj102230/Developer/Mariner/src/App/m_Entry.cpp > CMakeFiles/Mariner.dir/src/App/m_Entry.cpp.i
 
 CMakeFiles/Mariner.dir/src/App/m_Entry.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Mariner.dir/src/App/m_Entry.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/julien/Developer/Mariner/src/App/m_Entry.cpp -o CMakeFiles/Mariner.dir/src/App/m_Entry.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/28rj102230/Developer/Mariner/src/App/m_Entry.cpp -o CMakeFiles/Mariner.dir/src/App/m_Entry.cpp.s
 
 CMakeFiles/Mariner.dir/src/Core/m_EngineContextService.cpp.o: CMakeFiles/Mariner.dir/flags.make
-CMakeFiles/Mariner.dir/src/Core/m_EngineContextService.cpp.o: /Users/julien/Developer/Mariner/src/Core/m_EngineContextService.cpp
+CMakeFiles/Mariner.dir/src/Core/m_EngineContextService.cpp.o: /Users/28rj102230/Developer/Mariner/src/Core/m_EngineContextService.cpp
 CMakeFiles/Mariner.dir/src/Core/m_EngineContextService.cpp.o: CMakeFiles/Mariner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/julien/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Mariner.dir/src/Core/m_EngineContextService.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/Core/m_EngineContextService.cpp.o -MF CMakeFiles/Mariner.dir/src/Core/m_EngineContextService.cpp.o.d -o CMakeFiles/Mariner.dir/src/Core/m_EngineContextService.cpp.o -c /Users/julien/Developer/Mariner/src/Core/m_EngineContextService.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/28rj102230/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Mariner.dir/src/Core/m_EngineContextService.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/Core/m_EngineContextService.cpp.o -MF CMakeFiles/Mariner.dir/src/Core/m_EngineContextService.cpp.o.d -o CMakeFiles/Mariner.dir/src/Core/m_EngineContextService.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Core/m_EngineContextService.cpp
 
 CMakeFiles/Mariner.dir/src/Core/m_EngineContextService.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Mariner.dir/src/Core/m_EngineContextService.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/julien/Developer/Mariner/src/Core/m_EngineContextService.cpp > CMakeFiles/Mariner.dir/src/Core/m_EngineContextService.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/28rj102230/Developer/Mariner/src/Core/m_EngineContextService.cpp > CMakeFiles/Mariner.dir/src/Core/m_EngineContextService.cpp.i
 
 CMakeFiles/Mariner.dir/src/Core/m_EngineContextService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Mariner.dir/src/Core/m_EngineContextService.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/julien/Developer/Mariner/src/Core/m_EngineContextService.cpp -o CMakeFiles/Mariner.dir/src/Core/m_EngineContextService.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/28rj102230/Developer/Mariner/src/Core/m_EngineContextService.cpp -o CMakeFiles/Mariner.dir/src/Core/m_EngineContextService.cpp.s
 
 CMakeFiles/Mariner.dir/src/Libraries/m_Array.cpp.o: CMakeFiles/Mariner.dir/flags.make
-CMakeFiles/Mariner.dir/src/Libraries/m_Array.cpp.o: /Users/julien/Developer/Mariner/src/Libraries/m_Array.cpp
+CMakeFiles/Mariner.dir/src/Libraries/m_Array.cpp.o: /Users/28rj102230/Developer/Mariner/src/Libraries/m_Array.cpp
 CMakeFiles/Mariner.dir/src/Libraries/m_Array.cpp.o: CMakeFiles/Mariner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/julien/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Mariner.dir/src/Libraries/m_Array.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/Libraries/m_Array.cpp.o -MF CMakeFiles/Mariner.dir/src/Libraries/m_Array.cpp.o.d -o CMakeFiles/Mariner.dir/src/Libraries/m_Array.cpp.o -c /Users/julien/Developer/Mariner/src/Libraries/m_Array.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/28rj102230/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Mariner.dir/src/Libraries/m_Array.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/Libraries/m_Array.cpp.o -MF CMakeFiles/Mariner.dir/src/Libraries/m_Array.cpp.o.d -o CMakeFiles/Mariner.dir/src/Libraries/m_Array.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Libraries/m_Array.cpp
 
 CMakeFiles/Mariner.dir/src/Libraries/m_Array.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Mariner.dir/src/Libraries/m_Array.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/julien/Developer/Mariner/src/Libraries/m_Array.cpp > CMakeFiles/Mariner.dir/src/Libraries/m_Array.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/28rj102230/Developer/Mariner/src/Libraries/m_Array.cpp > CMakeFiles/Mariner.dir/src/Libraries/m_Array.cpp.i
 
 CMakeFiles/Mariner.dir/src/Libraries/m_Array.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Mariner.dir/src/Libraries/m_Array.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/julien/Developer/Mariner/src/Libraries/m_Array.cpp -o CMakeFiles/Mariner.dir/src/Libraries/m_Array.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/28rj102230/Developer/Mariner/src/Libraries/m_Array.cpp -o CMakeFiles/Mariner.dir/src/Libraries/m_Array.cpp.s
 
 CMakeFiles/Mariner.dir/src/Libraries/m_Instance.cpp.o: CMakeFiles/Mariner.dir/flags.make
-CMakeFiles/Mariner.dir/src/Libraries/m_Instance.cpp.o: /Users/julien/Developer/Mariner/src/Libraries/m_Instance.cpp
+CMakeFiles/Mariner.dir/src/Libraries/m_Instance.cpp.o: /Users/28rj102230/Developer/Mariner/src/Libraries/m_Instance.cpp
 CMakeFiles/Mariner.dir/src/Libraries/m_Instance.cpp.o: CMakeFiles/Mariner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/julien/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Mariner.dir/src/Libraries/m_Instance.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/Libraries/m_Instance.cpp.o -MF CMakeFiles/Mariner.dir/src/Libraries/m_Instance.cpp.o.d -o CMakeFiles/Mariner.dir/src/Libraries/m_Instance.cpp.o -c /Users/julien/Developer/Mariner/src/Libraries/m_Instance.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/28rj102230/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Mariner.dir/src/Libraries/m_Instance.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/Libraries/m_Instance.cpp.o -MF CMakeFiles/Mariner.dir/src/Libraries/m_Instance.cpp.o.d -o CMakeFiles/Mariner.dir/src/Libraries/m_Instance.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Libraries/m_Instance.cpp
 
 CMakeFiles/Mariner.dir/src/Libraries/m_Instance.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Mariner.dir/src/Libraries/m_Instance.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/julien/Developer/Mariner/src/Libraries/m_Instance.cpp > CMakeFiles/Mariner.dir/src/Libraries/m_Instance.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/28rj102230/Developer/Mariner/src/Libraries/m_Instance.cpp > CMakeFiles/Mariner.dir/src/Libraries/m_Instance.cpp.i
 
 CMakeFiles/Mariner.dir/src/Libraries/m_Instance.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Mariner.dir/src/Libraries/m_Instance.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/julien/Developer/Mariner/src/Libraries/m_Instance.cpp -o CMakeFiles/Mariner.dir/src/Libraries/m_Instance.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/28rj102230/Developer/Mariner/src/Libraries/m_Instance.cpp -o CMakeFiles/Mariner.dir/src/Libraries/m_Instance.cpp.s
 
 CMakeFiles/Mariner.dir/src/Libraries/m_Signal.cpp.o: CMakeFiles/Mariner.dir/flags.make
-CMakeFiles/Mariner.dir/src/Libraries/m_Signal.cpp.o: /Users/julien/Developer/Mariner/src/Libraries/m_Signal.cpp
+CMakeFiles/Mariner.dir/src/Libraries/m_Signal.cpp.o: /Users/28rj102230/Developer/Mariner/src/Libraries/m_Signal.cpp
 CMakeFiles/Mariner.dir/src/Libraries/m_Signal.cpp.o: CMakeFiles/Mariner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/julien/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Mariner.dir/src/Libraries/m_Signal.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/Libraries/m_Signal.cpp.o -MF CMakeFiles/Mariner.dir/src/Libraries/m_Signal.cpp.o.d -o CMakeFiles/Mariner.dir/src/Libraries/m_Signal.cpp.o -c /Users/julien/Developer/Mariner/src/Libraries/m_Signal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/28rj102230/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Mariner.dir/src/Libraries/m_Signal.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/Libraries/m_Signal.cpp.o -MF CMakeFiles/Mariner.dir/src/Libraries/m_Signal.cpp.o.d -o CMakeFiles/Mariner.dir/src/Libraries/m_Signal.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Libraries/m_Signal.cpp
 
 CMakeFiles/Mariner.dir/src/Libraries/m_Signal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Mariner.dir/src/Libraries/m_Signal.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/julien/Developer/Mariner/src/Libraries/m_Signal.cpp > CMakeFiles/Mariner.dir/src/Libraries/m_Signal.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/28rj102230/Developer/Mariner/src/Libraries/m_Signal.cpp > CMakeFiles/Mariner.dir/src/Libraries/m_Signal.cpp.i
 
 CMakeFiles/Mariner.dir/src/Libraries/m_Signal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Mariner.dir/src/Libraries/m_Signal.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/julien/Developer/Mariner/src/Libraries/m_Signal.cpp -o CMakeFiles/Mariner.dir/src/Libraries/m_Signal.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/28rj102230/Developer/Mariner/src/Libraries/m_Signal.cpp -o CMakeFiles/Mariner.dir/src/Libraries/m_Signal.cpp.s
 
 CMakeFiles/Mariner.dir/src/Libraries/m_SignalConnection.cpp.o: CMakeFiles/Mariner.dir/flags.make
-CMakeFiles/Mariner.dir/src/Libraries/m_SignalConnection.cpp.o: /Users/julien/Developer/Mariner/src/Libraries/m_SignalConnection.cpp
+CMakeFiles/Mariner.dir/src/Libraries/m_SignalConnection.cpp.o: /Users/28rj102230/Developer/Mariner/src/Libraries/m_SignalConnection.cpp
 CMakeFiles/Mariner.dir/src/Libraries/m_SignalConnection.cpp.o: CMakeFiles/Mariner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/julien/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Mariner.dir/src/Libraries/m_SignalConnection.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/Libraries/m_SignalConnection.cpp.o -MF CMakeFiles/Mariner.dir/src/Libraries/m_SignalConnection.cpp.o.d -o CMakeFiles/Mariner.dir/src/Libraries/m_SignalConnection.cpp.o -c /Users/julien/Developer/Mariner/src/Libraries/m_SignalConnection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/28rj102230/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Mariner.dir/src/Libraries/m_SignalConnection.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/Libraries/m_SignalConnection.cpp.o -MF CMakeFiles/Mariner.dir/src/Libraries/m_SignalConnection.cpp.o.d -o CMakeFiles/Mariner.dir/src/Libraries/m_SignalConnection.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Libraries/m_SignalConnection.cpp
 
 CMakeFiles/Mariner.dir/src/Libraries/m_SignalConnection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Mariner.dir/src/Libraries/m_SignalConnection.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/julien/Developer/Mariner/src/Libraries/m_SignalConnection.cpp > CMakeFiles/Mariner.dir/src/Libraries/m_SignalConnection.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/28rj102230/Developer/Mariner/src/Libraries/m_SignalConnection.cpp > CMakeFiles/Mariner.dir/src/Libraries/m_SignalConnection.cpp.i
 
 CMakeFiles/Mariner.dir/src/Libraries/m_SignalConnection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Mariner.dir/src/Libraries/m_SignalConnection.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/julien/Developer/Mariner/src/Libraries/m_SignalConnection.cpp -o CMakeFiles/Mariner.dir/src/Libraries/m_SignalConnection.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/28rj102230/Developer/Mariner/src/Libraries/m_SignalConnection.cpp -o CMakeFiles/Mariner.dir/src/Libraries/m_SignalConnection.cpp.s
 
 CMakeFiles/Mariner.dir/src/Libraries/m_String.cpp.o: CMakeFiles/Mariner.dir/flags.make
-CMakeFiles/Mariner.dir/src/Libraries/m_String.cpp.o: /Users/julien/Developer/Mariner/src/Libraries/m_String.cpp
+CMakeFiles/Mariner.dir/src/Libraries/m_String.cpp.o: /Users/28rj102230/Developer/Mariner/src/Libraries/m_String.cpp
 CMakeFiles/Mariner.dir/src/Libraries/m_String.cpp.o: CMakeFiles/Mariner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/julien/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Mariner.dir/src/Libraries/m_String.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/Libraries/m_String.cpp.o -MF CMakeFiles/Mariner.dir/src/Libraries/m_String.cpp.o.d -o CMakeFiles/Mariner.dir/src/Libraries/m_String.cpp.o -c /Users/julien/Developer/Mariner/src/Libraries/m_String.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/28rj102230/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Mariner.dir/src/Libraries/m_String.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/Libraries/m_String.cpp.o -MF CMakeFiles/Mariner.dir/src/Libraries/m_String.cpp.o.d -o CMakeFiles/Mariner.dir/src/Libraries/m_String.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Libraries/m_String.cpp
 
 CMakeFiles/Mariner.dir/src/Libraries/m_String.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Mariner.dir/src/Libraries/m_String.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/julien/Developer/Mariner/src/Libraries/m_String.cpp > CMakeFiles/Mariner.dir/src/Libraries/m_String.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/28rj102230/Developer/Mariner/src/Libraries/m_String.cpp > CMakeFiles/Mariner.dir/src/Libraries/m_String.cpp.i
 
 CMakeFiles/Mariner.dir/src/Libraries/m_String.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Mariner.dir/src/Libraries/m_String.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/julien/Developer/Mariner/src/Libraries/m_String.cpp -o CMakeFiles/Mariner.dir/src/Libraries/m_String.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/28rj102230/Developer/Mariner/src/Libraries/m_String.cpp -o CMakeFiles/Mariner.dir/src/Libraries/m_String.cpp.s
+
+CMakeFiles/Mariner.dir/src/Libraries/m_Vector3D.cpp.o: CMakeFiles/Mariner.dir/flags.make
+CMakeFiles/Mariner.dir/src/Libraries/m_Vector3D.cpp.o: /Users/28rj102230/Developer/Mariner/src/Libraries/m_Vector3D.cpp
+CMakeFiles/Mariner.dir/src/Libraries/m_Vector3D.cpp.o: CMakeFiles/Mariner.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/28rj102230/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Mariner.dir/src/Libraries/m_Vector3D.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/Libraries/m_Vector3D.cpp.o -MF CMakeFiles/Mariner.dir/src/Libraries/m_Vector3D.cpp.o.d -o CMakeFiles/Mariner.dir/src/Libraries/m_Vector3D.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Libraries/m_Vector3D.cpp
+
+CMakeFiles/Mariner.dir/src/Libraries/m_Vector3D.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Mariner.dir/src/Libraries/m_Vector3D.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/28rj102230/Developer/Mariner/src/Libraries/m_Vector3D.cpp > CMakeFiles/Mariner.dir/src/Libraries/m_Vector3D.cpp.i
+
+CMakeFiles/Mariner.dir/src/Libraries/m_Vector3D.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Mariner.dir/src/Libraries/m_Vector3D.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/28rj102230/Developer/Mariner/src/Libraries/m_Vector3D.cpp -o CMakeFiles/Mariner.dir/src/Libraries/m_Vector3D.cpp.s
+
+CMakeFiles/Mariner.dir/src/Objects/m_BasePart.cpp.o: CMakeFiles/Mariner.dir/flags.make
+CMakeFiles/Mariner.dir/src/Objects/m_BasePart.cpp.o: /Users/28rj102230/Developer/Mariner/src/Objects/m_BasePart.cpp
+CMakeFiles/Mariner.dir/src/Objects/m_BasePart.cpp.o: CMakeFiles/Mariner.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/28rj102230/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Mariner.dir/src/Objects/m_BasePart.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/Objects/m_BasePart.cpp.o -MF CMakeFiles/Mariner.dir/src/Objects/m_BasePart.cpp.o.d -o CMakeFiles/Mariner.dir/src/Objects/m_BasePart.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Objects/m_BasePart.cpp
+
+CMakeFiles/Mariner.dir/src/Objects/m_BasePart.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Mariner.dir/src/Objects/m_BasePart.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/28rj102230/Developer/Mariner/src/Objects/m_BasePart.cpp > CMakeFiles/Mariner.dir/src/Objects/m_BasePart.cpp.i
+
+CMakeFiles/Mariner.dir/src/Objects/m_BasePart.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Mariner.dir/src/Objects/m_BasePart.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/28rj102230/Developer/Mariner/src/Objects/m_BasePart.cpp -o CMakeFiles/Mariner.dir/src/Objects/m_BasePart.cpp.s
+
+CMakeFiles/Mariner.dir/src/Objects/m_Camera.cpp.o: CMakeFiles/Mariner.dir/flags.make
+CMakeFiles/Mariner.dir/src/Objects/m_Camera.cpp.o: /Users/28rj102230/Developer/Mariner/src/Objects/m_Camera.cpp
+CMakeFiles/Mariner.dir/src/Objects/m_Camera.cpp.o: CMakeFiles/Mariner.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/28rj102230/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Mariner.dir/src/Objects/m_Camera.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/Objects/m_Camera.cpp.o -MF CMakeFiles/Mariner.dir/src/Objects/m_Camera.cpp.o.d -o CMakeFiles/Mariner.dir/src/Objects/m_Camera.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Objects/m_Camera.cpp
+
+CMakeFiles/Mariner.dir/src/Objects/m_Camera.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Mariner.dir/src/Objects/m_Camera.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/28rj102230/Developer/Mariner/src/Objects/m_Camera.cpp > CMakeFiles/Mariner.dir/src/Objects/m_Camera.cpp.i
+
+CMakeFiles/Mariner.dir/src/Objects/m_Camera.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Mariner.dir/src/Objects/m_Camera.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/28rj102230/Developer/Mariner/src/Objects/m_Camera.cpp -o CMakeFiles/Mariner.dir/src/Objects/m_Camera.cpp.s
 
 CMakeFiles/Mariner.dir/src/Objects/m_DataModel.cpp.o: CMakeFiles/Mariner.dir/flags.make
-CMakeFiles/Mariner.dir/src/Objects/m_DataModel.cpp.o: /Users/julien/Developer/Mariner/src/Objects/m_DataModel.cpp
+CMakeFiles/Mariner.dir/src/Objects/m_DataModel.cpp.o: /Users/28rj102230/Developer/Mariner/src/Objects/m_DataModel.cpp
 CMakeFiles/Mariner.dir/src/Objects/m_DataModel.cpp.o: CMakeFiles/Mariner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/julien/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Mariner.dir/src/Objects/m_DataModel.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/Objects/m_DataModel.cpp.o -MF CMakeFiles/Mariner.dir/src/Objects/m_DataModel.cpp.o.d -o CMakeFiles/Mariner.dir/src/Objects/m_DataModel.cpp.o -c /Users/julien/Developer/Mariner/src/Objects/m_DataModel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/28rj102230/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Mariner.dir/src/Objects/m_DataModel.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/Objects/m_DataModel.cpp.o -MF CMakeFiles/Mariner.dir/src/Objects/m_DataModel.cpp.o.d -o CMakeFiles/Mariner.dir/src/Objects/m_DataModel.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Objects/m_DataModel.cpp
 
 CMakeFiles/Mariner.dir/src/Objects/m_DataModel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Mariner.dir/src/Objects/m_DataModel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/julien/Developer/Mariner/src/Objects/m_DataModel.cpp > CMakeFiles/Mariner.dir/src/Objects/m_DataModel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/28rj102230/Developer/Mariner/src/Objects/m_DataModel.cpp > CMakeFiles/Mariner.dir/src/Objects/m_DataModel.cpp.i
 
 CMakeFiles/Mariner.dir/src/Objects/m_DataModel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Mariner.dir/src/Objects/m_DataModel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/julien/Developer/Mariner/src/Objects/m_DataModel.cpp -o CMakeFiles/Mariner.dir/src/Objects/m_DataModel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/28rj102230/Developer/Mariner/src/Objects/m_DataModel.cpp -o CMakeFiles/Mariner.dir/src/Objects/m_DataModel.cpp.s
 
 CMakeFiles/Mariner.dir/src/Objects/m_Job.cpp.o: CMakeFiles/Mariner.dir/flags.make
-CMakeFiles/Mariner.dir/src/Objects/m_Job.cpp.o: /Users/julien/Developer/Mariner/src/Objects/m_Job.cpp
+CMakeFiles/Mariner.dir/src/Objects/m_Job.cpp.o: /Users/28rj102230/Developer/Mariner/src/Objects/m_Job.cpp
 CMakeFiles/Mariner.dir/src/Objects/m_Job.cpp.o: CMakeFiles/Mariner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/julien/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Mariner.dir/src/Objects/m_Job.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/Objects/m_Job.cpp.o -MF CMakeFiles/Mariner.dir/src/Objects/m_Job.cpp.o.d -o CMakeFiles/Mariner.dir/src/Objects/m_Job.cpp.o -c /Users/julien/Developer/Mariner/src/Objects/m_Job.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/28rj102230/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Mariner.dir/src/Objects/m_Job.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/Objects/m_Job.cpp.o -MF CMakeFiles/Mariner.dir/src/Objects/m_Job.cpp.o.d -o CMakeFiles/Mariner.dir/src/Objects/m_Job.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Objects/m_Job.cpp
 
 CMakeFiles/Mariner.dir/src/Objects/m_Job.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Mariner.dir/src/Objects/m_Job.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/julien/Developer/Mariner/src/Objects/m_Job.cpp > CMakeFiles/Mariner.dir/src/Objects/m_Job.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/28rj102230/Developer/Mariner/src/Objects/m_Job.cpp > CMakeFiles/Mariner.dir/src/Objects/m_Job.cpp.i
 
 CMakeFiles/Mariner.dir/src/Objects/m_Job.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Mariner.dir/src/Objects/m_Job.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/julien/Developer/Mariner/src/Objects/m_Job.cpp -o CMakeFiles/Mariner.dir/src/Objects/m_Job.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/28rj102230/Developer/Mariner/src/Objects/m_Job.cpp -o CMakeFiles/Mariner.dir/src/Objects/m_Job.cpp.s
+
+CMakeFiles/Mariner.dir/src/Objects/m_MeshPart.cpp.o: CMakeFiles/Mariner.dir/flags.make
+CMakeFiles/Mariner.dir/src/Objects/m_MeshPart.cpp.o: /Users/28rj102230/Developer/Mariner/src/Objects/m_MeshPart.cpp
+CMakeFiles/Mariner.dir/src/Objects/m_MeshPart.cpp.o: CMakeFiles/Mariner.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/28rj102230/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Mariner.dir/src/Objects/m_MeshPart.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/Objects/m_MeshPart.cpp.o -MF CMakeFiles/Mariner.dir/src/Objects/m_MeshPart.cpp.o.d -o CMakeFiles/Mariner.dir/src/Objects/m_MeshPart.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Objects/m_MeshPart.cpp
+
+CMakeFiles/Mariner.dir/src/Objects/m_MeshPart.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Mariner.dir/src/Objects/m_MeshPart.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/28rj102230/Developer/Mariner/src/Objects/m_MeshPart.cpp > CMakeFiles/Mariner.dir/src/Objects/m_MeshPart.cpp.i
+
+CMakeFiles/Mariner.dir/src/Objects/m_MeshPart.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Mariner.dir/src/Objects/m_MeshPart.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/28rj102230/Developer/Mariner/src/Objects/m_MeshPart.cpp -o CMakeFiles/Mariner.dir/src/Objects/m_MeshPart.cpp.s
 
 CMakeFiles/Mariner.dir/src/Objects/m_Object.cpp.o: CMakeFiles/Mariner.dir/flags.make
-CMakeFiles/Mariner.dir/src/Objects/m_Object.cpp.o: /Users/julien/Developer/Mariner/src/Objects/m_Object.cpp
+CMakeFiles/Mariner.dir/src/Objects/m_Object.cpp.o: /Users/28rj102230/Developer/Mariner/src/Objects/m_Object.cpp
 CMakeFiles/Mariner.dir/src/Objects/m_Object.cpp.o: CMakeFiles/Mariner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/julien/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Mariner.dir/src/Objects/m_Object.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/Objects/m_Object.cpp.o -MF CMakeFiles/Mariner.dir/src/Objects/m_Object.cpp.o.d -o CMakeFiles/Mariner.dir/src/Objects/m_Object.cpp.o -c /Users/julien/Developer/Mariner/src/Objects/m_Object.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/28rj102230/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Mariner.dir/src/Objects/m_Object.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/Objects/m_Object.cpp.o -MF CMakeFiles/Mariner.dir/src/Objects/m_Object.cpp.o.d -o CMakeFiles/Mariner.dir/src/Objects/m_Object.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Objects/m_Object.cpp
 
 CMakeFiles/Mariner.dir/src/Objects/m_Object.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Mariner.dir/src/Objects/m_Object.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/julien/Developer/Mariner/src/Objects/m_Object.cpp > CMakeFiles/Mariner.dir/src/Objects/m_Object.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/28rj102230/Developer/Mariner/src/Objects/m_Object.cpp > CMakeFiles/Mariner.dir/src/Objects/m_Object.cpp.i
 
 CMakeFiles/Mariner.dir/src/Objects/m_Object.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Mariner.dir/src/Objects/m_Object.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/julien/Developer/Mariner/src/Objects/m_Object.cpp -o CMakeFiles/Mariner.dir/src/Objects/m_Object.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/28rj102230/Developer/Mariner/src/Objects/m_Object.cpp -o CMakeFiles/Mariner.dir/src/Objects/m_Object.cpp.s
+
+CMakeFiles/Mariner.dir/src/Objects/m_Part.cpp.o: CMakeFiles/Mariner.dir/flags.make
+CMakeFiles/Mariner.dir/src/Objects/m_Part.cpp.o: /Users/28rj102230/Developer/Mariner/src/Objects/m_Part.cpp
+CMakeFiles/Mariner.dir/src/Objects/m_Part.cpp.o: CMakeFiles/Mariner.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/28rj102230/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Mariner.dir/src/Objects/m_Part.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/Objects/m_Part.cpp.o -MF CMakeFiles/Mariner.dir/src/Objects/m_Part.cpp.o.d -o CMakeFiles/Mariner.dir/src/Objects/m_Part.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Objects/m_Part.cpp
+
+CMakeFiles/Mariner.dir/src/Objects/m_Part.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Mariner.dir/src/Objects/m_Part.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/28rj102230/Developer/Mariner/src/Objects/m_Part.cpp > CMakeFiles/Mariner.dir/src/Objects/m_Part.cpp.i
+
+CMakeFiles/Mariner.dir/src/Objects/m_Part.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Mariner.dir/src/Objects/m_Part.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/28rj102230/Developer/Mariner/src/Objects/m_Part.cpp -o CMakeFiles/Mariner.dir/src/Objects/m_Part.cpp.s
 
 CMakeFiles/Mariner.dir/src/Objects/m_ServiceProvider.cpp.o: CMakeFiles/Mariner.dir/flags.make
-CMakeFiles/Mariner.dir/src/Objects/m_ServiceProvider.cpp.o: /Users/julien/Developer/Mariner/src/Objects/m_ServiceProvider.cpp
+CMakeFiles/Mariner.dir/src/Objects/m_ServiceProvider.cpp.o: /Users/28rj102230/Developer/Mariner/src/Objects/m_ServiceProvider.cpp
 CMakeFiles/Mariner.dir/src/Objects/m_ServiceProvider.cpp.o: CMakeFiles/Mariner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/julien/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Mariner.dir/src/Objects/m_ServiceProvider.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/Objects/m_ServiceProvider.cpp.o -MF CMakeFiles/Mariner.dir/src/Objects/m_ServiceProvider.cpp.o.d -o CMakeFiles/Mariner.dir/src/Objects/m_ServiceProvider.cpp.o -c /Users/julien/Developer/Mariner/src/Objects/m_ServiceProvider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/28rj102230/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Mariner.dir/src/Objects/m_ServiceProvider.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/Objects/m_ServiceProvider.cpp.o -MF CMakeFiles/Mariner.dir/src/Objects/m_ServiceProvider.cpp.o.d -o CMakeFiles/Mariner.dir/src/Objects/m_ServiceProvider.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Objects/m_ServiceProvider.cpp
 
 CMakeFiles/Mariner.dir/src/Objects/m_ServiceProvider.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Mariner.dir/src/Objects/m_ServiceProvider.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/julien/Developer/Mariner/src/Objects/m_ServiceProvider.cpp > CMakeFiles/Mariner.dir/src/Objects/m_ServiceProvider.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/28rj102230/Developer/Mariner/src/Objects/m_ServiceProvider.cpp > CMakeFiles/Mariner.dir/src/Objects/m_ServiceProvider.cpp.i
 
 CMakeFiles/Mariner.dir/src/Objects/m_ServiceProvider.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Mariner.dir/src/Objects/m_ServiceProvider.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/julien/Developer/Mariner/src/Objects/m_ServiceProvider.cpp -o CMakeFiles/Mariner.dir/src/Objects/m_ServiceProvider.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/28rj102230/Developer/Mariner/src/Objects/m_ServiceProvider.cpp -o CMakeFiles/Mariner.dir/src/Objects/m_ServiceProvider.cpp.s
 
 CMakeFiles/Mariner.dir/src/Objects/m_Thread.cpp.o: CMakeFiles/Mariner.dir/flags.make
-CMakeFiles/Mariner.dir/src/Objects/m_Thread.cpp.o: /Users/julien/Developer/Mariner/src/Objects/m_Thread.cpp
+CMakeFiles/Mariner.dir/src/Objects/m_Thread.cpp.o: /Users/28rj102230/Developer/Mariner/src/Objects/m_Thread.cpp
 CMakeFiles/Mariner.dir/src/Objects/m_Thread.cpp.o: CMakeFiles/Mariner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/julien/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Mariner.dir/src/Objects/m_Thread.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/Objects/m_Thread.cpp.o -MF CMakeFiles/Mariner.dir/src/Objects/m_Thread.cpp.o.d -o CMakeFiles/Mariner.dir/src/Objects/m_Thread.cpp.o -c /Users/julien/Developer/Mariner/src/Objects/m_Thread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/28rj102230/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Mariner.dir/src/Objects/m_Thread.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/Objects/m_Thread.cpp.o -MF CMakeFiles/Mariner.dir/src/Objects/m_Thread.cpp.o.d -o CMakeFiles/Mariner.dir/src/Objects/m_Thread.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Objects/m_Thread.cpp
 
 CMakeFiles/Mariner.dir/src/Objects/m_Thread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Mariner.dir/src/Objects/m_Thread.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/julien/Developer/Mariner/src/Objects/m_Thread.cpp > CMakeFiles/Mariner.dir/src/Objects/m_Thread.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/28rj102230/Developer/Mariner/src/Objects/m_Thread.cpp > CMakeFiles/Mariner.dir/src/Objects/m_Thread.cpp.i
 
 CMakeFiles/Mariner.dir/src/Objects/m_Thread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Mariner.dir/src/Objects/m_Thread.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/julien/Developer/Mariner/src/Objects/m_Thread.cpp -o CMakeFiles/Mariner.dir/src/Objects/m_Thread.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/28rj102230/Developer/Mariner/src/Objects/m_Thread.cpp -o CMakeFiles/Mariner.dir/src/Objects/m_Thread.cpp.s
 
 CMakeFiles/Mariner.dir/src/Objects/m_Window.cpp.o: CMakeFiles/Mariner.dir/flags.make
-CMakeFiles/Mariner.dir/src/Objects/m_Window.cpp.o: /Users/julien/Developer/Mariner/src/Objects/m_Window.cpp
+CMakeFiles/Mariner.dir/src/Objects/m_Window.cpp.o: /Users/28rj102230/Developer/Mariner/src/Objects/m_Window.cpp
 CMakeFiles/Mariner.dir/src/Objects/m_Window.cpp.o: CMakeFiles/Mariner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/julien/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Mariner.dir/src/Objects/m_Window.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/Objects/m_Window.cpp.o -MF CMakeFiles/Mariner.dir/src/Objects/m_Window.cpp.o.d -o CMakeFiles/Mariner.dir/src/Objects/m_Window.cpp.o -c /Users/julien/Developer/Mariner/src/Objects/m_Window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/28rj102230/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Mariner.dir/src/Objects/m_Window.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/Objects/m_Window.cpp.o -MF CMakeFiles/Mariner.dir/src/Objects/m_Window.cpp.o.d -o CMakeFiles/Mariner.dir/src/Objects/m_Window.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Objects/m_Window.cpp
 
 CMakeFiles/Mariner.dir/src/Objects/m_Window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Mariner.dir/src/Objects/m_Window.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/julien/Developer/Mariner/src/Objects/m_Window.cpp > CMakeFiles/Mariner.dir/src/Objects/m_Window.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/28rj102230/Developer/Mariner/src/Objects/m_Window.cpp > CMakeFiles/Mariner.dir/src/Objects/m_Window.cpp.i
 
 CMakeFiles/Mariner.dir/src/Objects/m_Window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Mariner.dir/src/Objects/m_Window.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/julien/Developer/Mariner/src/Objects/m_Window.cpp -o CMakeFiles/Mariner.dir/src/Objects/m_Window.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/28rj102230/Developer/Mariner/src/Objects/m_Window.cpp -o CMakeFiles/Mariner.dir/src/Objects/m_Window.cpp.s
 
 CMakeFiles/Mariner.dir/src/Services/m_MemStorageService.cpp.o: CMakeFiles/Mariner.dir/flags.make
-CMakeFiles/Mariner.dir/src/Services/m_MemStorageService.cpp.o: /Users/julien/Developer/Mariner/src/Services/m_MemStorageService.cpp
+CMakeFiles/Mariner.dir/src/Services/m_MemStorageService.cpp.o: /Users/28rj102230/Developer/Mariner/src/Services/m_MemStorageService.cpp
 CMakeFiles/Mariner.dir/src/Services/m_MemStorageService.cpp.o: CMakeFiles/Mariner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/julien/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Mariner.dir/src/Services/m_MemStorageService.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/Services/m_MemStorageService.cpp.o -MF CMakeFiles/Mariner.dir/src/Services/m_MemStorageService.cpp.o.d -o CMakeFiles/Mariner.dir/src/Services/m_MemStorageService.cpp.o -c /Users/julien/Developer/Mariner/src/Services/m_MemStorageService.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/28rj102230/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Mariner.dir/src/Services/m_MemStorageService.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/Services/m_MemStorageService.cpp.o -MF CMakeFiles/Mariner.dir/src/Services/m_MemStorageService.cpp.o.d -o CMakeFiles/Mariner.dir/src/Services/m_MemStorageService.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Services/m_MemStorageService.cpp
 
 CMakeFiles/Mariner.dir/src/Services/m_MemStorageService.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Mariner.dir/src/Services/m_MemStorageService.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/julien/Developer/Mariner/src/Services/m_MemStorageService.cpp > CMakeFiles/Mariner.dir/src/Services/m_MemStorageService.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/28rj102230/Developer/Mariner/src/Services/m_MemStorageService.cpp > CMakeFiles/Mariner.dir/src/Services/m_MemStorageService.cpp.i
 
 CMakeFiles/Mariner.dir/src/Services/m_MemStorageService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Mariner.dir/src/Services/m_MemStorageService.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/julien/Developer/Mariner/src/Services/m_MemStorageService.cpp -o CMakeFiles/Mariner.dir/src/Services/m_MemStorageService.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/28rj102230/Developer/Mariner/src/Services/m_MemStorageService.cpp -o CMakeFiles/Mariner.dir/src/Services/m_MemStorageService.cpp.s
 
 CMakeFiles/Mariner.dir/src/Services/m_MessageBusService.cpp.o: CMakeFiles/Mariner.dir/flags.make
-CMakeFiles/Mariner.dir/src/Services/m_MessageBusService.cpp.o: /Users/julien/Developer/Mariner/src/Services/m_MessageBusService.cpp
+CMakeFiles/Mariner.dir/src/Services/m_MessageBusService.cpp.o: /Users/28rj102230/Developer/Mariner/src/Services/m_MessageBusService.cpp
 CMakeFiles/Mariner.dir/src/Services/m_MessageBusService.cpp.o: CMakeFiles/Mariner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/julien/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Mariner.dir/src/Services/m_MessageBusService.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/Services/m_MessageBusService.cpp.o -MF CMakeFiles/Mariner.dir/src/Services/m_MessageBusService.cpp.o.d -o CMakeFiles/Mariner.dir/src/Services/m_MessageBusService.cpp.o -c /Users/julien/Developer/Mariner/src/Services/m_MessageBusService.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/28rj102230/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Mariner.dir/src/Services/m_MessageBusService.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/Services/m_MessageBusService.cpp.o -MF CMakeFiles/Mariner.dir/src/Services/m_MessageBusService.cpp.o.d -o CMakeFiles/Mariner.dir/src/Services/m_MessageBusService.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Services/m_MessageBusService.cpp
 
 CMakeFiles/Mariner.dir/src/Services/m_MessageBusService.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Mariner.dir/src/Services/m_MessageBusService.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/julien/Developer/Mariner/src/Services/m_MessageBusService.cpp > CMakeFiles/Mariner.dir/src/Services/m_MessageBusService.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/28rj102230/Developer/Mariner/src/Services/m_MessageBusService.cpp > CMakeFiles/Mariner.dir/src/Services/m_MessageBusService.cpp.i
 
 CMakeFiles/Mariner.dir/src/Services/m_MessageBusService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Mariner.dir/src/Services/m_MessageBusService.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/julien/Developer/Mariner/src/Services/m_MessageBusService.cpp -o CMakeFiles/Mariner.dir/src/Services/m_MessageBusService.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/28rj102230/Developer/Mariner/src/Services/m_MessageBusService.cpp -o CMakeFiles/Mariner.dir/src/Services/m_MessageBusService.cpp.s
 
 CMakeFiles/Mariner.dir/src/Services/m_RunService.cpp.o: CMakeFiles/Mariner.dir/flags.make
-CMakeFiles/Mariner.dir/src/Services/m_RunService.cpp.o: /Users/julien/Developer/Mariner/src/Services/m_RunService.cpp
+CMakeFiles/Mariner.dir/src/Services/m_RunService.cpp.o: /Users/28rj102230/Developer/Mariner/src/Services/m_RunService.cpp
 CMakeFiles/Mariner.dir/src/Services/m_RunService.cpp.o: CMakeFiles/Mariner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/julien/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Mariner.dir/src/Services/m_RunService.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/Services/m_RunService.cpp.o -MF CMakeFiles/Mariner.dir/src/Services/m_RunService.cpp.o.d -o CMakeFiles/Mariner.dir/src/Services/m_RunService.cpp.o -c /Users/julien/Developer/Mariner/src/Services/m_RunService.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/28rj102230/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Mariner.dir/src/Services/m_RunService.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/Services/m_RunService.cpp.o -MF CMakeFiles/Mariner.dir/src/Services/m_RunService.cpp.o.d -o CMakeFiles/Mariner.dir/src/Services/m_RunService.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Services/m_RunService.cpp
 
 CMakeFiles/Mariner.dir/src/Services/m_RunService.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Mariner.dir/src/Services/m_RunService.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/julien/Developer/Mariner/src/Services/m_RunService.cpp > CMakeFiles/Mariner.dir/src/Services/m_RunService.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/28rj102230/Developer/Mariner/src/Services/m_RunService.cpp > CMakeFiles/Mariner.dir/src/Services/m_RunService.cpp.i
 
 CMakeFiles/Mariner.dir/src/Services/m_RunService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Mariner.dir/src/Services/m_RunService.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/julien/Developer/Mariner/src/Services/m_RunService.cpp -o CMakeFiles/Mariner.dir/src/Services/m_RunService.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/28rj102230/Developer/Mariner/src/Services/m_RunService.cpp -o CMakeFiles/Mariner.dir/src/Services/m_RunService.cpp.s
 
 CMakeFiles/Mariner.dir/src/Services/m_TaskScheduler.cpp.o: CMakeFiles/Mariner.dir/flags.make
-CMakeFiles/Mariner.dir/src/Services/m_TaskScheduler.cpp.o: /Users/julien/Developer/Mariner/src/Services/m_TaskScheduler.cpp
+CMakeFiles/Mariner.dir/src/Services/m_TaskScheduler.cpp.o: /Users/28rj102230/Developer/Mariner/src/Services/m_TaskScheduler.cpp
 CMakeFiles/Mariner.dir/src/Services/m_TaskScheduler.cpp.o: CMakeFiles/Mariner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/julien/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Mariner.dir/src/Services/m_TaskScheduler.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/Services/m_TaskScheduler.cpp.o -MF CMakeFiles/Mariner.dir/src/Services/m_TaskScheduler.cpp.o.d -o CMakeFiles/Mariner.dir/src/Services/m_TaskScheduler.cpp.o -c /Users/julien/Developer/Mariner/src/Services/m_TaskScheduler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/28rj102230/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Mariner.dir/src/Services/m_TaskScheduler.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/Services/m_TaskScheduler.cpp.o -MF CMakeFiles/Mariner.dir/src/Services/m_TaskScheduler.cpp.o.d -o CMakeFiles/Mariner.dir/src/Services/m_TaskScheduler.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Services/m_TaskScheduler.cpp
 
 CMakeFiles/Mariner.dir/src/Services/m_TaskScheduler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Mariner.dir/src/Services/m_TaskScheduler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/julien/Developer/Mariner/src/Services/m_TaskScheduler.cpp > CMakeFiles/Mariner.dir/src/Services/m_TaskScheduler.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/28rj102230/Developer/Mariner/src/Services/m_TaskScheduler.cpp > CMakeFiles/Mariner.dir/src/Services/m_TaskScheduler.cpp.i
 
 CMakeFiles/Mariner.dir/src/Services/m_TaskScheduler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Mariner.dir/src/Services/m_TaskScheduler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/julien/Developer/Mariner/src/Services/m_TaskScheduler.cpp -o CMakeFiles/Mariner.dir/src/Services/m_TaskScheduler.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/28rj102230/Developer/Mariner/src/Services/m_TaskScheduler.cpp -o CMakeFiles/Mariner.dir/src/Services/m_TaskScheduler.cpp.s
+
+CMakeFiles/Mariner.dir/src/Services/m_Workspace.cpp.o: CMakeFiles/Mariner.dir/flags.make
+CMakeFiles/Mariner.dir/src/Services/m_Workspace.cpp.o: /Users/28rj102230/Developer/Mariner/src/Services/m_Workspace.cpp
+CMakeFiles/Mariner.dir/src/Services/m_Workspace.cpp.o: CMakeFiles/Mariner.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/28rj102230/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Mariner.dir/src/Services/m_Workspace.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/Services/m_Workspace.cpp.o -MF CMakeFiles/Mariner.dir/src/Services/m_Workspace.cpp.o.d -o CMakeFiles/Mariner.dir/src/Services/m_Workspace.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Services/m_Workspace.cpp
+
+CMakeFiles/Mariner.dir/src/Services/m_Workspace.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Mariner.dir/src/Services/m_Workspace.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/28rj102230/Developer/Mariner/src/Services/m_Workspace.cpp > CMakeFiles/Mariner.dir/src/Services/m_Workspace.cpp.i
+
+CMakeFiles/Mariner.dir/src/Services/m_Workspace.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Mariner.dir/src/Services/m_Workspace.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/28rj102230/Developer/Mariner/src/Services/m_Workspace.cpp -o CMakeFiles/Mariner.dir/src/Services/m_Workspace.cpp.s
 
 CMakeFiles/Mariner.dir/src/Utils/m_Memory.cpp.o: CMakeFiles/Mariner.dir/flags.make
-CMakeFiles/Mariner.dir/src/Utils/m_Memory.cpp.o: /Users/julien/Developer/Mariner/src/Utils/m_Memory.cpp
+CMakeFiles/Mariner.dir/src/Utils/m_Memory.cpp.o: /Users/28rj102230/Developer/Mariner/src/Utils/m_Memory.cpp
 CMakeFiles/Mariner.dir/src/Utils/m_Memory.cpp.o: CMakeFiles/Mariner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/julien/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Mariner.dir/src/Utils/m_Memory.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/Utils/m_Memory.cpp.o -MF CMakeFiles/Mariner.dir/src/Utils/m_Memory.cpp.o.d -o CMakeFiles/Mariner.dir/src/Utils/m_Memory.cpp.o -c /Users/julien/Developer/Mariner/src/Utils/m_Memory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/28rj102230/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Mariner.dir/src/Utils/m_Memory.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mariner.dir/src/Utils/m_Memory.cpp.o -MF CMakeFiles/Mariner.dir/src/Utils/m_Memory.cpp.o.d -o CMakeFiles/Mariner.dir/src/Utils/m_Memory.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Utils/m_Memory.cpp
 
 CMakeFiles/Mariner.dir/src/Utils/m_Memory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Mariner.dir/src/Utils/m_Memory.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/julien/Developer/Mariner/src/Utils/m_Memory.cpp > CMakeFiles/Mariner.dir/src/Utils/m_Memory.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/28rj102230/Developer/Mariner/src/Utils/m_Memory.cpp > CMakeFiles/Mariner.dir/src/Utils/m_Memory.cpp.i
 
 CMakeFiles/Mariner.dir/src/Utils/m_Memory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Mariner.dir/src/Utils/m_Memory.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/julien/Developer/Mariner/src/Utils/m_Memory.cpp -o CMakeFiles/Mariner.dir/src/Utils/m_Memory.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/28rj102230/Developer/Mariner/src/Utils/m_Memory.cpp -o CMakeFiles/Mariner.dir/src/Utils/m_Memory.cpp.s
+
+CMakeFiles/Mariner.dir/extern/glad/src/glad.c.o: CMakeFiles/Mariner.dir/flags.make
+CMakeFiles/Mariner.dir/extern/glad/src/glad.c.o: /Users/28rj102230/Developer/Mariner/extern/glad/src/glad.c
+CMakeFiles/Mariner.dir/extern/glad/src/glad.c.o: CMakeFiles/Mariner.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/28rj102230/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/Mariner.dir/extern/glad/src/glad.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Mariner.dir/extern/glad/src/glad.c.o -MF CMakeFiles/Mariner.dir/extern/glad/src/glad.c.o.d -o CMakeFiles/Mariner.dir/extern/glad/src/glad.c.o -c /Users/28rj102230/Developer/Mariner/extern/glad/src/glad.c
+
+CMakeFiles/Mariner.dir/extern/glad/src/glad.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Mariner.dir/extern/glad/src/glad.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/28rj102230/Developer/Mariner/extern/glad/src/glad.c > CMakeFiles/Mariner.dir/extern/glad/src/glad.c.i
+
+CMakeFiles/Mariner.dir/extern/glad/src/glad.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Mariner.dir/extern/glad/src/glad.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/28rj102230/Developer/Mariner/extern/glad/src/glad.c -o CMakeFiles/Mariner.dir/extern/glad/src/glad.c.s
 
 # Object files for target Mariner
 Mariner_OBJECTS = \
@@ -363,9 +461,14 @@ Mariner_OBJECTS = \
 "CMakeFiles/Mariner.dir/src/Libraries/m_Signal.cpp.o" \
 "CMakeFiles/Mariner.dir/src/Libraries/m_SignalConnection.cpp.o" \
 "CMakeFiles/Mariner.dir/src/Libraries/m_String.cpp.o" \
+"CMakeFiles/Mariner.dir/src/Libraries/m_Vector3D.cpp.o" \
+"CMakeFiles/Mariner.dir/src/Objects/m_BasePart.cpp.o" \
+"CMakeFiles/Mariner.dir/src/Objects/m_Camera.cpp.o" \
 "CMakeFiles/Mariner.dir/src/Objects/m_DataModel.cpp.o" \
 "CMakeFiles/Mariner.dir/src/Objects/m_Job.cpp.o" \
+"CMakeFiles/Mariner.dir/src/Objects/m_MeshPart.cpp.o" \
 "CMakeFiles/Mariner.dir/src/Objects/m_Object.cpp.o" \
+"CMakeFiles/Mariner.dir/src/Objects/m_Part.cpp.o" \
 "CMakeFiles/Mariner.dir/src/Objects/m_ServiceProvider.cpp.o" \
 "CMakeFiles/Mariner.dir/src/Objects/m_Thread.cpp.o" \
 "CMakeFiles/Mariner.dir/src/Objects/m_Window.cpp.o" \
@@ -373,7 +476,9 @@ Mariner_OBJECTS = \
 "CMakeFiles/Mariner.dir/src/Services/m_MessageBusService.cpp.o" \
 "CMakeFiles/Mariner.dir/src/Services/m_RunService.cpp.o" \
 "CMakeFiles/Mariner.dir/src/Services/m_TaskScheduler.cpp.o" \
-"CMakeFiles/Mariner.dir/src/Utils/m_Memory.cpp.o"
+"CMakeFiles/Mariner.dir/src/Services/m_Workspace.cpp.o" \
+"CMakeFiles/Mariner.dir/src/Utils/m_Memory.cpp.o" \
+"CMakeFiles/Mariner.dir/extern/glad/src/glad.c.o"
 
 # External object files for target Mariner
 Mariner_EXTERNAL_OBJECTS =
@@ -387,9 +492,14 @@ libMariner.dylib: CMakeFiles/Mariner.dir/src/Libraries/m_Instance.cpp.o
 libMariner.dylib: CMakeFiles/Mariner.dir/src/Libraries/m_Signal.cpp.o
 libMariner.dylib: CMakeFiles/Mariner.dir/src/Libraries/m_SignalConnection.cpp.o
 libMariner.dylib: CMakeFiles/Mariner.dir/src/Libraries/m_String.cpp.o
+libMariner.dylib: CMakeFiles/Mariner.dir/src/Libraries/m_Vector3D.cpp.o
+libMariner.dylib: CMakeFiles/Mariner.dir/src/Objects/m_BasePart.cpp.o
+libMariner.dylib: CMakeFiles/Mariner.dir/src/Objects/m_Camera.cpp.o
 libMariner.dylib: CMakeFiles/Mariner.dir/src/Objects/m_DataModel.cpp.o
 libMariner.dylib: CMakeFiles/Mariner.dir/src/Objects/m_Job.cpp.o
+libMariner.dylib: CMakeFiles/Mariner.dir/src/Objects/m_MeshPart.cpp.o
 libMariner.dylib: CMakeFiles/Mariner.dir/src/Objects/m_Object.cpp.o
+libMariner.dylib: CMakeFiles/Mariner.dir/src/Objects/m_Part.cpp.o
 libMariner.dylib: CMakeFiles/Mariner.dir/src/Objects/m_ServiceProvider.cpp.o
 libMariner.dylib: CMakeFiles/Mariner.dir/src/Objects/m_Thread.cpp.o
 libMariner.dylib: CMakeFiles/Mariner.dir/src/Objects/m_Window.cpp.o
@@ -397,11 +507,13 @@ libMariner.dylib: CMakeFiles/Mariner.dir/src/Services/m_MemStorageService.cpp.o
 libMariner.dylib: CMakeFiles/Mariner.dir/src/Services/m_MessageBusService.cpp.o
 libMariner.dylib: CMakeFiles/Mariner.dir/src/Services/m_RunService.cpp.o
 libMariner.dylib: CMakeFiles/Mariner.dir/src/Services/m_TaskScheduler.cpp.o
+libMariner.dylib: CMakeFiles/Mariner.dir/src/Services/m_Workspace.cpp.o
 libMariner.dylib: CMakeFiles/Mariner.dir/src/Utils/m_Memory.cpp.o
+libMariner.dylib: CMakeFiles/Mariner.dir/extern/glad/src/glad.c.o
 libMariner.dylib: CMakeFiles/Mariner.dir/build.make
-libMariner.dylib: /usr/local/lib/libglfw.3.4.dylib
+libMariner.dylib: /Users/28rj102230/homebrew/lib/libglfw.3.4.dylib
 libMariner.dylib: CMakeFiles/Mariner.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/julien/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX shared library libMariner.dylib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/28rj102230/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX shared library libMariner.dylib"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Mariner.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -413,6 +525,6 @@ CMakeFiles/Mariner.dir/clean:
 .PHONY : CMakeFiles/Mariner.dir/clean
 
 CMakeFiles/Mariner.dir/depend:
-	cd /Users/julien/Developer/Mariner/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/julien/Developer/Mariner /Users/julien/Developer/Mariner /Users/julien/Developer/Mariner/build /Users/julien/Developer/Mariner/build /Users/julien/Developer/Mariner/build/CMakeFiles/Mariner.dir/DependInfo.cmake "--color=$(COLOR)" Mariner
+	cd /Users/28rj102230/Developer/Mariner/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/28rj102230/Developer/Mariner /Users/28rj102230/Developer/Mariner /Users/28rj102230/Developer/Mariner/build /Users/28rj102230/Developer/Mariner/build /Users/28rj102230/Developer/Mariner/build/CMakeFiles/Mariner.dir/DependInfo.cmake "--color=$(COLOR)" Mariner
 .PHONY : CMakeFiles/Mariner.dir/depend
 

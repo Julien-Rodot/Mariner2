@@ -48,19 +48,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /Users/28rj102230/homebrew/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E rm -f
+RM = /Users/28rj102230/homebrew/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/julien/Developer/Mariner
+CMAKE_SOURCE_DIR = /Users/28rj102230/Developer/Mariner
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/julien/Developer/Mariner/build
+CMAKE_BINARY_DIR = /Users/28rj102230/Developer/Mariner/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /Users/julien/Developer/Mariner/build
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
-	/usr/local/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Users/28rj102230/homebrew/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	/usr/local/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Users/28rj102230/homebrew/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/julien/Developer/Mariner/build/CMakeFiles /Users/julien/Developer/Mariner/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/28rj102230/Developer/Mariner/build/CMakeFiles /Users/28rj102230/Developer/Mariner/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/julien/Developer/Mariner/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/28rj102230/Developer/Mariner/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -113,7 +113,7 @@ preinstall/fast:
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -P /Users/julien/Developer/Mariner/build/CMakeFiles/VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P /Users/28rj102230/Developer/Mariner/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
@@ -166,6 +166,30 @@ examples/main.s: examples/main.cpp.s
 examples/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MarinerExample.dir/build.make CMakeFiles/MarinerExample.dir/examples/main.cpp.s
 .PHONY : examples/main.cpp.s
+
+extern/glad/src/glad.o: extern/glad/src/glad.c.o
+.PHONY : extern/glad/src/glad.o
+
+# target to build an object file
+extern/glad/src/glad.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/extern/glad/src/glad.c.o
+.PHONY : extern/glad/src/glad.c.o
+
+extern/glad/src/glad.i: extern/glad/src/glad.c.i
+.PHONY : extern/glad/src/glad.i
+
+# target to preprocess a source file
+extern/glad/src/glad.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/extern/glad/src/glad.c.i
+.PHONY : extern/glad/src/glad.c.i
+
+extern/glad/src/glad.s: extern/glad/src/glad.c.s
+.PHONY : extern/glad/src/glad.s
+
+# target to generate assembly for a file
+extern/glad/src/glad.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/extern/glad/src/glad.c.s
+.PHONY : extern/glad/src/glad.c.s
 
 src/App/m_AppContextService.o: src/App/m_AppContextService.cpp.o
 .PHONY : src/App/m_AppContextService.o
@@ -383,6 +407,78 @@ src/Libraries/m_String.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Libraries/m_String.cpp.s
 .PHONY : src/Libraries/m_String.cpp.s
 
+src/Libraries/m_Vector3D.o: src/Libraries/m_Vector3D.cpp.o
+.PHONY : src/Libraries/m_Vector3D.o
+
+# target to build an object file
+src/Libraries/m_Vector3D.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Libraries/m_Vector3D.cpp.o
+.PHONY : src/Libraries/m_Vector3D.cpp.o
+
+src/Libraries/m_Vector3D.i: src/Libraries/m_Vector3D.cpp.i
+.PHONY : src/Libraries/m_Vector3D.i
+
+# target to preprocess a source file
+src/Libraries/m_Vector3D.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Libraries/m_Vector3D.cpp.i
+.PHONY : src/Libraries/m_Vector3D.cpp.i
+
+src/Libraries/m_Vector3D.s: src/Libraries/m_Vector3D.cpp.s
+.PHONY : src/Libraries/m_Vector3D.s
+
+# target to generate assembly for a file
+src/Libraries/m_Vector3D.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Libraries/m_Vector3D.cpp.s
+.PHONY : src/Libraries/m_Vector3D.cpp.s
+
+src/Objects/m_BasePart.o: src/Objects/m_BasePart.cpp.o
+.PHONY : src/Objects/m_BasePart.o
+
+# target to build an object file
+src/Objects/m_BasePart.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Objects/m_BasePart.cpp.o
+.PHONY : src/Objects/m_BasePart.cpp.o
+
+src/Objects/m_BasePart.i: src/Objects/m_BasePart.cpp.i
+.PHONY : src/Objects/m_BasePart.i
+
+# target to preprocess a source file
+src/Objects/m_BasePart.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Objects/m_BasePart.cpp.i
+.PHONY : src/Objects/m_BasePart.cpp.i
+
+src/Objects/m_BasePart.s: src/Objects/m_BasePart.cpp.s
+.PHONY : src/Objects/m_BasePart.s
+
+# target to generate assembly for a file
+src/Objects/m_BasePart.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Objects/m_BasePart.cpp.s
+.PHONY : src/Objects/m_BasePart.cpp.s
+
+src/Objects/m_Camera.o: src/Objects/m_Camera.cpp.o
+.PHONY : src/Objects/m_Camera.o
+
+# target to build an object file
+src/Objects/m_Camera.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Objects/m_Camera.cpp.o
+.PHONY : src/Objects/m_Camera.cpp.o
+
+src/Objects/m_Camera.i: src/Objects/m_Camera.cpp.i
+.PHONY : src/Objects/m_Camera.i
+
+# target to preprocess a source file
+src/Objects/m_Camera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Objects/m_Camera.cpp.i
+.PHONY : src/Objects/m_Camera.cpp.i
+
+src/Objects/m_Camera.s: src/Objects/m_Camera.cpp.s
+.PHONY : src/Objects/m_Camera.s
+
+# target to generate assembly for a file
+src/Objects/m_Camera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Objects/m_Camera.cpp.s
+.PHONY : src/Objects/m_Camera.cpp.s
+
 src/Objects/m_DataModel.o: src/Objects/m_DataModel.cpp.o
 .PHONY : src/Objects/m_DataModel.o
 
@@ -431,6 +527,30 @@ src/Objects/m_Job.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Objects/m_Job.cpp.s
 .PHONY : src/Objects/m_Job.cpp.s
 
+src/Objects/m_MeshPart.o: src/Objects/m_MeshPart.cpp.o
+.PHONY : src/Objects/m_MeshPart.o
+
+# target to build an object file
+src/Objects/m_MeshPart.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Objects/m_MeshPart.cpp.o
+.PHONY : src/Objects/m_MeshPart.cpp.o
+
+src/Objects/m_MeshPart.i: src/Objects/m_MeshPart.cpp.i
+.PHONY : src/Objects/m_MeshPart.i
+
+# target to preprocess a source file
+src/Objects/m_MeshPart.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Objects/m_MeshPart.cpp.i
+.PHONY : src/Objects/m_MeshPart.cpp.i
+
+src/Objects/m_MeshPart.s: src/Objects/m_MeshPart.cpp.s
+.PHONY : src/Objects/m_MeshPart.s
+
+# target to generate assembly for a file
+src/Objects/m_MeshPart.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Objects/m_MeshPart.cpp.s
+.PHONY : src/Objects/m_MeshPart.cpp.s
+
 src/Objects/m_Object.o: src/Objects/m_Object.cpp.o
 .PHONY : src/Objects/m_Object.o
 
@@ -454,6 +574,30 @@ src/Objects/m_Object.s: src/Objects/m_Object.cpp.s
 src/Objects/m_Object.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Objects/m_Object.cpp.s
 .PHONY : src/Objects/m_Object.cpp.s
+
+src/Objects/m_Part.o: src/Objects/m_Part.cpp.o
+.PHONY : src/Objects/m_Part.o
+
+# target to build an object file
+src/Objects/m_Part.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Objects/m_Part.cpp.o
+.PHONY : src/Objects/m_Part.cpp.o
+
+src/Objects/m_Part.i: src/Objects/m_Part.cpp.i
+.PHONY : src/Objects/m_Part.i
+
+# target to preprocess a source file
+src/Objects/m_Part.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Objects/m_Part.cpp.i
+.PHONY : src/Objects/m_Part.cpp.i
+
+src/Objects/m_Part.s: src/Objects/m_Part.cpp.s
+.PHONY : src/Objects/m_Part.s
+
+# target to generate assembly for a file
+src/Objects/m_Part.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Objects/m_Part.cpp.s
+.PHONY : src/Objects/m_Part.cpp.s
 
 src/Objects/m_ServiceProvider.o: src/Objects/m_ServiceProvider.cpp.o
 .PHONY : src/Objects/m_ServiceProvider.o
@@ -623,6 +767,30 @@ src/Services/m_TaskScheduler.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Services/m_TaskScheduler.cpp.s
 .PHONY : src/Services/m_TaskScheduler.cpp.s
 
+src/Services/m_Workspace.o: src/Services/m_Workspace.cpp.o
+.PHONY : src/Services/m_Workspace.o
+
+# target to build an object file
+src/Services/m_Workspace.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Services/m_Workspace.cpp.o
+.PHONY : src/Services/m_Workspace.cpp.o
+
+src/Services/m_Workspace.i: src/Services/m_Workspace.cpp.i
+.PHONY : src/Services/m_Workspace.i
+
+# target to preprocess a source file
+src/Services/m_Workspace.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Services/m_Workspace.cpp.i
+.PHONY : src/Services/m_Workspace.cpp.i
+
+src/Services/m_Workspace.s: src/Services/m_Workspace.cpp.s
+.PHONY : src/Services/m_Workspace.s
+
+# target to generate assembly for a file
+src/Services/m_Workspace.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Services/m_Workspace.cpp.s
+.PHONY : src/Services/m_Workspace.cpp.s
+
 src/Utils/m_Memory.o: src/Utils/m_Memory.cpp.o
 .PHONY : src/Utils/m_Memory.o
 
@@ -660,6 +828,9 @@ help:
 	@echo "... examples/main.o"
 	@echo "... examples/main.i"
 	@echo "... examples/main.s"
+	@echo "... extern/glad/src/glad.o"
+	@echo "... extern/glad/src/glad.i"
+	@echo "... extern/glad/src/glad.s"
 	@echo "... src/App/m_AppContextService.o"
 	@echo "... src/App/m_AppContextService.i"
 	@echo "... src/App/m_AppContextService.s"
@@ -687,15 +858,30 @@ help:
 	@echo "... src/Libraries/m_String.o"
 	@echo "... src/Libraries/m_String.i"
 	@echo "... src/Libraries/m_String.s"
+	@echo "... src/Libraries/m_Vector3D.o"
+	@echo "... src/Libraries/m_Vector3D.i"
+	@echo "... src/Libraries/m_Vector3D.s"
+	@echo "... src/Objects/m_BasePart.o"
+	@echo "... src/Objects/m_BasePart.i"
+	@echo "... src/Objects/m_BasePart.s"
+	@echo "... src/Objects/m_Camera.o"
+	@echo "... src/Objects/m_Camera.i"
+	@echo "... src/Objects/m_Camera.s"
 	@echo "... src/Objects/m_DataModel.o"
 	@echo "... src/Objects/m_DataModel.i"
 	@echo "... src/Objects/m_DataModel.s"
 	@echo "... src/Objects/m_Job.o"
 	@echo "... src/Objects/m_Job.i"
 	@echo "... src/Objects/m_Job.s"
+	@echo "... src/Objects/m_MeshPart.o"
+	@echo "... src/Objects/m_MeshPart.i"
+	@echo "... src/Objects/m_MeshPart.s"
 	@echo "... src/Objects/m_Object.o"
 	@echo "... src/Objects/m_Object.i"
 	@echo "... src/Objects/m_Object.s"
+	@echo "... src/Objects/m_Part.o"
+	@echo "... src/Objects/m_Part.i"
+	@echo "... src/Objects/m_Part.s"
 	@echo "... src/Objects/m_ServiceProvider.o"
 	@echo "... src/Objects/m_ServiceProvider.i"
 	@echo "... src/Objects/m_ServiceProvider.s"
@@ -717,6 +903,9 @@ help:
 	@echo "... src/Services/m_TaskScheduler.o"
 	@echo "... src/Services/m_TaskScheduler.i"
 	@echo "... src/Services/m_TaskScheduler.s"
+	@echo "... src/Services/m_Workspace.o"
+	@echo "... src/Services/m_Workspace.i"
+	@echo "... src/Services/m_Workspace.s"
 	@echo "... src/Utils/m_Memory.o"
 	@echo "... src/Utils/m_Memory.i"
 	@echo "... src/Utils/m_Memory.s"
@@ -731,7 +920,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -P /Users/julien/Developer/Mariner/build/CMakeFiles/VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P /Users/28rj102230/Developer/Mariner/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

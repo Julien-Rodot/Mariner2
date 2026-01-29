@@ -36,6 +36,43 @@ namespace Mariner {
             Parent = ObjectToParent;
         }
 
+        m_Object* m_Object::FindFirstChild(Mariner::Libraries::m_String Name) {
+
+            for (auto* Child : Children) {
+
+                if (Child && Child->Name == Name) {
+
+                    return Child;
+
+                }
+
+            }
+
+            return nullptr;
+
+        }
+
+        m_Object* m_Object::FindFirstChildOfClass(Mariner::Libraries::m_String ClassName) {
+
+            for (auto* Child : Children) {
+
+                if (Child && Child->ClassName == ClassName) {
+
+                    return Child;
+
+                }
+
+            }
+
+            return nullptr;
+            
+        }
+
+        void m_Object::Destroy() {
+
+            delete this;
+
+        }
         
     } // namespace Objects
     

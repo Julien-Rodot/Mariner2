@@ -8,21 +8,21 @@ using namespace Mariner::Internal;
 using namespace Mariner::Libraries;
 using namespace Mariner::Services;
 
-
 int main() {
 
+    m_Workspace* Workspace = m_Game->GetService<m_Workspace>();
     auto RunService = m_Game->GetService<m_RunService>();
+    auto MessageBusService = m_Game->GetService<m_MessageBusService>();
 
-    m_Array<m_Object*> Array = {};
+    auto MyPart = m_Instance->New<m_BasePart>();
+    MyPart->Position = m_Vector3D->New(20,20,20);
+    
+    auto Camera = Workspace->CurrrentCamera;
+    Camera->CameraSubject = MyPart;
 
-    Array.Add(m_Instance->New<m_Object>());
-    m_Array<m_Object*>::Add(Array, m_Object::New());
-    Array[1] = m_Object::New();
-    std::print("{}\n", Array[1]->Name.ToCString());
+    MessageBusService->OnIncommingMessage.Connect([](m_String Message){
 
-    RunService->Heartbeat.Connect([]() {
-
-        printf("%s\n", "Fired!");
+        printf("%s\n", Message.ToCString());
 
     });
 

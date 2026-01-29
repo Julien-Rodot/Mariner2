@@ -18,6 +18,9 @@ namespace Mariner {
 
                 static m_DataModel* New();
 
+                // NEVER FLIP THIS IN SCRIPT CODE!!!!!
+                bool IsNetworked = false;
+
             protected:
 
                 m_DataModel() = default;

@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Mariner.dir/extern/glad/src/glad.c.o"
+  "CMakeFiles/Mariner.dir/extern/glad/src/glad.c.o.d"
   "CMakeFiles/Mariner.dir/src/App/m_AppContextService.cpp.o"
   "CMakeFiles/Mariner.dir/src/App/m_AppContextService.cpp.o.d"
   "CMakeFiles/Mariner.dir/src/App/m_Application.cpp.o"
@@ -17,12 +19,22 @@ file(REMOVE_RECURSE
   "CMakeFiles/Mariner.dir/src/Libraries/m_SignalConnection.cpp.o.d"
   "CMakeFiles/Mariner.dir/src/Libraries/m_String.cpp.o"
   "CMakeFiles/Mariner.dir/src/Libraries/m_String.cpp.o.d"
+  "CMakeFiles/Mariner.dir/src/Libraries/m_Vector3D.cpp.o"
+  "CMakeFiles/Mariner.dir/src/Libraries/m_Vector3D.cpp.o.d"
+  "CMakeFiles/Mariner.dir/src/Objects/m_BasePart.cpp.o"
+  "CMakeFiles/Mariner.dir/src/Objects/m_BasePart.cpp.o.d"
+  "CMakeFiles/Mariner.dir/src/Objects/m_Camera.cpp.o"
+  "CMakeFiles/Mariner.dir/src/Objects/m_Camera.cpp.o.d"
   "CMakeFiles/Mariner.dir/src/Objects/m_DataModel.cpp.o"
   "CMakeFiles/Mariner.dir/src/Objects/m_DataModel.cpp.o.d"
   "CMakeFiles/Mariner.dir/src/Objects/m_Job.cpp.o"
   "CMakeFiles/Mariner.dir/src/Objects/m_Job.cpp.o.d"
+  "CMakeFiles/Mariner.dir/src/Objects/m_MeshPart.cpp.o"
+  "CMakeFiles/Mariner.dir/src/Objects/m_MeshPart.cpp.o.d"
   "CMakeFiles/Mariner.dir/src/Objects/m_Object.cpp.o"
   "CMakeFiles/Mariner.dir/src/Objects/m_Object.cpp.o.d"
+  "CMakeFiles/Mariner.dir/src/Objects/m_Part.cpp.o"
+  "CMakeFiles/Mariner.dir/src/Objects/m_Part.cpp.o.d"
   "CMakeFiles/Mariner.dir/src/Objects/m_ServiceProvider.cpp.o"
   "CMakeFiles/Mariner.dir/src/Objects/m_ServiceProvider.cpp.o.d"
   "CMakeFiles/Mariner.dir/src/Objects/m_Thread.cpp.o"
@@ -37,6 +49,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Mariner.dir/src/Services/m_RunService.cpp.o.d"
   "CMakeFiles/Mariner.dir/src/Services/m_TaskScheduler.cpp.o"
   "CMakeFiles/Mariner.dir/src/Services/m_TaskScheduler.cpp.o.d"
+  "CMakeFiles/Mariner.dir/src/Services/m_Workspace.cpp.o"
+  "CMakeFiles/Mariner.dir/src/Services/m_Workspace.cpp.o.d"
   "CMakeFiles/Mariner.dir/src/Utils/m_Memory.cpp.o"
   "CMakeFiles/Mariner.dir/src/Utils/m_Memory.cpp.o.d"
   "libMariner.dylib"
@@ -44,6 +58,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
+foreach(lang C CXX)
   include(CMakeFiles/Mariner.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

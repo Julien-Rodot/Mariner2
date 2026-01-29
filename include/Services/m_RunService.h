@@ -7,6 +7,7 @@
  */
 
 
+#include <chrono>
 #include "GLFW/glfw3.h"
 
 #include "Objects/m_Object.h"
@@ -32,12 +33,12 @@ namespace Mariner {
                 void Pause();
                 void Stop();
 
-                Mariner::Libraries::m_Signal PreSimulation = *Mariner::Libraries::m_Signal::New();
-                Mariner::Libraries::m_Signal PostSimulation = *Mariner::Libraries::m_Signal::New();
-                Mariner::Libraries::m_Signal PreRender = *Mariner::Libraries::m_Signal::New();
-                Mariner::Libraries::m_Signal RenderStepped = *Mariner::Libraries::m_Signal::New();
-                Mariner::Libraries::m_Signal PostRender = *Mariner::Libraries::m_Signal::New();
-                Mariner::Libraries::m_Signal Heartbeat = *Mariner::Libraries::m_Signal::New();
+                Mariner::Libraries::m_Signal<void> PreSimulation = *Mariner::Libraries::m_Signal<void>::New();
+                Mariner::Libraries::m_Signal<void>  PostSimulation = *Mariner::Libraries::m_Signal<void>::New();
+                Mariner::Libraries::m_Signal<void>  PreRender = *Mariner::Libraries::m_Signal<void>::New();
+                Mariner::Libraries::m_Signal<void>  RenderStepped = *Mariner::Libraries::m_Signal<void>::New();
+                Mariner::Libraries::m_Signal<void>  PostRender = *Mariner::Libraries::m_Signal<void>::New();
+                Mariner::Libraries::m_Signal<float>  Heartbeat = *Mariner::Libraries::m_Signal<float>::New();
 
             protected:
 

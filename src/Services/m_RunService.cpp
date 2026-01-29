@@ -27,13 +27,21 @@ namespace Mariner {
 
         void m_RunService::RunServiceFunction() {
             
+            using clock = std::chrono::high_resolution_clock;
+            static auto lastTime = clock::now();
+
+            auto now = clock::now();
+            std::chrono::duration<float> elapsed = now - lastTime;
+            float dt = elapsed.count();
+            lastTime = now;
+
             ThisPointer->PreSimulation.Fire();
             glfwPollEvents();
             ThisPointer->PostSimulation.Fire();
             ThisPointer->PreRender.Fire();
             ThisPointer->RenderStepped.Fire();
             ThisPointer->PostRender.Fire();
-            ThisPointer->Heartbeat.Fire();
+            ThisPointer->Heartbeat.Fire(dt);  // pass calculated dt
 
         }
 

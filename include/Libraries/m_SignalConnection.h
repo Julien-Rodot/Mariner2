@@ -1,9 +1,9 @@
 #pragma once
 
 /**
- * @name Object.h
+ * @name SignalConnection.h
  * @author jj
- * @brief The basic object in Mariner. 
+ * @brief Stores a connection to a signal.
  */
 
 #include <functional>
@@ -19,22 +19,35 @@ namespace Mariner {
 
                 static m_SignalConnection* New() {
 
-                    static m_SignalConnection* Instance = new m_SignalConnection();
-                    return Instance;
+                    return new m_SignalConnection();
 
                 }
 
-                std::function<std::function<void(Args...)>> StoredFunction;
+                std::function<void(Args...)> StoredFunction;
 
                 m_SignalConnection() = default;
                 virtual ~m_SignalConnection() = default;
 
-            protected:
+            };
 
-            private:
+        template<>
+        class m_SignalConnection<void> {
 
-        };
-        
+            public:
+
+                static m_SignalConnection* New() {
+
+                    return new m_SignalConnection();
+
+                }
+
+                std::function<void()> StoredFunction;
+
+                m_SignalConnection() = default;
+                virtual ~m_SignalConnection() = default;
+
+            };
+
     } // namespace Libraries
-    
+
 } // namespace Mariner

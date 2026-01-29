@@ -18,11 +18,16 @@ namespace Mariner {
             public:
 
                 static m_Object* New();
-                Libraries::m_String Name;
-                Libraries::m_String  ClassName;
+                Mariner::Libraries::m_String Name;
+                Mariner::Libraries::m_String  ClassName;
                 m_Object* Parent;
 
+                m_Object* FindFirstChild(Mariner::Libraries::m_String Name);
+                m_Object* FindFirstChildOfClass(Mariner::Libraries::m_String ClassName);
+
                 void SetParent(m_Object* ObjectToParentTo);
+                void Destroy();
+                
 
             protected:
 

@@ -5,19 +5,4 @@
  * functions connected to it will run.
  */
 
-#include "Libraries/m_SignalConnection.h"
-
-namespace Mariner {
-    
-    namespace Libraries {
-        
-        m_SignalConnection* m_SignalConnection::New() {
-
-            static m_SignalConnection* Instance = new m_SignalConnection();
-            return Instance;
-
-        };
-
-    } // namespace Libraries
-    
-} // namespace Mariner
+// IMPLEMENTATION IN H FILE DUE TO TEMPLATES.

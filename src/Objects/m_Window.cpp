@@ -4,6 +4,8 @@
  * @brief The basic Window.
  */
 
+#include <glad/glad.h>
+
 #include "Objects/m_Window.h"
 #include "Objects/m_DataModel.h"
 #include "Services/m_TaskScheduler.h"
@@ -21,8 +23,9 @@ namespace Mariner {
         void m_Window::WindowLoop() {
 
             auto MemStorageService = Mariner::Services::m_MemStorageService::New();
-
             GLFWwindow* WindowPointer = MemStorageService->Load<GLFWwindow*>("m_EngineWindowPointer");
+
+            glfwMakeContextCurrent(WindowPointer);
 
             if(glfwWindowShouldClose(WindowPointer)) {
 
@@ -30,6 +33,8 @@ namespace Mariner {
 
             }
 
+            //glClearColor(0.05f, 0.05f, 0.08f, 1.0f);
+            //glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
             glfwSwapBuffers(WindowPointer);
 
         };
@@ -48,6 +53,10 @@ namespace Mariner {
             auto MemStorageService = Mariner::Services::m_MemStorageService::New();
 
             glfwInit();
+            glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4);
+            glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 1);
+            glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
+            glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
 
             GLFWwindow* WindowPointer = glfwCreateWindow(this->SizeX, this->SizeY, Mariner::Libraries::m_String::ToCString(DataModel->Name), NULL, NULL);
             if(!WindowPointer) {
@@ -56,14 +65,27 @@ namespace Mariner {
 
             }
 
+            glfwMakeContextCurrent(WindowPointer);
+            glEnable(GL_DEPTH_TEST);
+            glDepthFunc(GL_LESS);
+
+            if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) {
+
+                throw std::runtime_error("Oh fuck! Mariner coudnt get GLAD loaded!");
+
+            }
+
+            glViewport(0, 0, this->SizeX, this->SizeY);
+
             Mariner::Objects::m_Job* WindowJob = Mariner::Objects::m_Job::New();
             WindowJob->FunctionPointer = this->WindowLoop;
             WindowJob->Cyclic = true;
             WindowJob->ThreadToExecute = "m_MainThread";
             TaskScheduler->AddJob(WindowJob);
             
-            MemStorageService->Store("m_EngineWindowPointer", WindowPointer);
             this->GLFWWindowPointer = WindowPointer;
+            MemStorageService->Store("m_EngineWindowPointer", WindowPointer);
+
             return;
 
         };

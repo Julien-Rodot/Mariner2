@@ -27,7 +27,7 @@ namespace Mariner {
                 void Call(Mariner::Libraries::m_String MessageId, ...);
                 std::any GetLast(Mariner::Libraries::m_String MessageId);
                 
-                Mariner::Libraries::m_Signal OnIncommingMessage = *Mariner::Libraries::m_Signal::New();
+                Mariner::Libraries::m_Signal<Mariner::Libraries::m_String> OnIncommingMessage = *Mariner::Libraries::m_Signal<Mariner::Libraries::m_String>::New();
 
             protected:
 
