@@ -76,15 +76,15 @@ CMakeFiles/MarinerExample.dir/examples/main.cpp.o: CMakeFiles/MarinerExample.dir
 CMakeFiles/MarinerExample.dir/examples/main.cpp.o: /Users/28rj102230/Developer/Mariner/examples/main.cpp
 CMakeFiles/MarinerExample.dir/examples/main.cpp.o: CMakeFiles/MarinerExample.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/28rj102230/Developer/Mariner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MarinerExample.dir/examples/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MarinerExample.dir/examples/main.cpp.o -MF CMakeFiles/MarinerExample.dir/examples/main.cpp.o.d -o CMakeFiles/MarinerExample.dir/examples/main.cpp.o -c /Users/28rj102230/Developer/Mariner/examples/main.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MarinerExample.dir/examples/main.cpp.o -MF CMakeFiles/MarinerExample.dir/examples/main.cpp.o.d -o CMakeFiles/MarinerExample.dir/examples/main.cpp.o -c /Users/28rj102230/Developer/Mariner/examples/main.cpp
 
 CMakeFiles/MarinerExample.dir/examples/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MarinerExample.dir/examples/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/28rj102230/Developer/Mariner/examples/main.cpp > CMakeFiles/MarinerExample.dir/examples/main.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/28rj102230/Developer/Mariner/examples/main.cpp > CMakeFiles/MarinerExample.dir/examples/main.cpp.i
 
 CMakeFiles/MarinerExample.dir/examples/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MarinerExample.dir/examples/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/28rj102230/Developer/Mariner/examples/main.cpp -o CMakeFiles/MarinerExample.dir/examples/main.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/28rj102230/Developer/Mariner/examples/main.cpp -o CMakeFiles/MarinerExample.dir/examples/main.cpp.s
 
 # Object files for target MarinerExample
 MarinerExample_OBJECTS = \

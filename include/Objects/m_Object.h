@@ -24,6 +24,7 @@ namespace Mariner {
 
                 m_Object* FindFirstChild(Mariner::Libraries::m_String Name);
                 m_Object* FindFirstChildOfClass(Mariner::Libraries::m_String ClassName);
+                Mariner::Libraries::m_Array<m_Object*> GetDescendants();
 
                 void SetParent(m_Object* ObjectToParentTo);
                 void Destroy();

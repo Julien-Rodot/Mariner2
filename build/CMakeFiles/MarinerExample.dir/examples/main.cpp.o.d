@@ -1,6 +1,7 @@
 CMakeFiles/MarinerExample.dir/examples/main.cpp.o: \
   /Users/28rj102230/Developer/Mariner/examples/main.cpp \
   /Users/28rj102230/Developer/Mariner/include/Mariner/Mariner.h \
+  /Users/28rj102230/Developer/Mariner/include/Mariner/MarinerTypes.h \
   /Users/28rj102230/Developer/Mariner/include/Libraries/m_Array.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
@@ -891,6 +892,7 @@ CMakeFiles/MarinerExample.dir/examples/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/throw_system_error.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
+  /Users/28rj102230/Developer/Mariner/include/Libraries/m_Color.h \
   /Users/28rj102230/Developer/Mariner/include/Utils/m_Memory.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/mach_vm.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/ndr.h \
@@ -1121,10 +1123,162 @@ CMakeFiles/MarinerExample.dir/examples/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/os/availability.h \
   /Users/28rj102230/Developer/Mariner/include/Objects/m_Camera.h \
   /Users/28rj102230/Developer/Mariner/include/Objects/m_BasePart.h \
+  /Users/28rj102230/Developer/Mariner/include/Objects/m_BaseScript.h \
+  /Users/28rj102230/Developer/Mariner/include/Libraries/m_Dictionary.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/utility \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/rel_ops.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/as_const.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/forward_like.h \
   /Users/28rj102230/Developer/Mariner/include/Services/m_RunService.h \
   /Users/28rj102230/Developer/Mariner/include/Enums/m_RunState.h \
   /Users/28rj102230/Developer/Mariner/include/Services/m_MemStorageService.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/any \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_cv_quals.h \
   /Users/28rj102230/Developer/Mariner/include/Services/m_MessageBusService.h \
-  /Users/28rj102230/Developer/Mariner/include/Services/m_Workspace.h
+  /Users/28rj102230/Developer/Mariner/include/Services/m_Workspace.h \
+  /Users/28rj102230/Developer/Mariner/include/Services/m_ScriptContext.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/cling/Interpreter/Interpreter.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/cling/Interpreter/InvocationOptions.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/cling/Interpreter/RuntimeOptions.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/ADT/StringRef.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/ADT/DenseMapInfo.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_assert.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/type_traits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/aligned_union.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/alignment_of.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/has_virtual_destructor.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_abstract.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_compound.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_fundamental.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_literal_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_pod.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/rank.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/result_of.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_aggregate.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_nothrow_convertible.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_implicit_lifetime.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/ADT/STLFunctionalExtras.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/ADT/STLForwardCompat.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/ADT/iterator_range.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/ADT/ADL.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iterator \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/front_insert_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/insert_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/istream_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/ostream_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/common_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/variant \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/variant.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/counted_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/common_with.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/concepts \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/Support/Compiler.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/Config/llvm-config.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/ExecutionEngine/Orc/ThreadSafeModule.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/IR/LLVMContext.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm-c/Types.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm-c/DataTypes.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/inttypes.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_inttypes.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm-c/ExternC.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/IR/DiagnosticHandler.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/Support/CBindingWrapping.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/Support/Casting.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/Support/type_traits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/memory \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/align.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/inout_ptr.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/out_ptr.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/raw_storage_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/temporary_buffer.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/assume_aligned.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/ranges_uninitialized_algorithms.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/uses_allocator_construction.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/IR/FixedMetadataKinds.def \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/IR/Module.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/ADT/STLExtras.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/ADT/Hashing.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/Support/DataTypes.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/Support/ErrorHandling.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/Support/SwapByteOrder.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/ADT/bit.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/ADT/iterator.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/Config/abi-breaking.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/ADT/StringMap.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/ADT/StringMapEntry.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/Support/AllocatorBase.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/Support/MemAlloc.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/Support/PointerLikeTypeTraits.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/IR/Attributes.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/ADT/ArrayRef.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/ADT/SmallVector.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/new \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__new/new_handler.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__new/interference_size.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__new/destroying_delete_t.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/ADT/BitmaskEnum.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/Support/MathExtras.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/Support/Alignment.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/Support/CodeGen.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/Support/ModRef.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/ADT/Sequence.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/Support/raw_ostream.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/system_error \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/IR/Attributes.inc \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/IR/Comdat.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/ADT/SmallPtrSet.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/ADT/EpochTracker.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/Support/ReverseIteration.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/IR/DataLayout.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/ADT/APInt.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/IR/DerivedTypes.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/IR/Type.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/Support/TypeSize.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/Support/TrailingObjects.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/Support/AlignOf.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/IR/Function.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/ADT/DenseSet.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/ADT/DenseMap.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/ADT/Twine.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/ADT/ilist_node.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/ADT/ilist_node_base.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/ADT/PointerIntPair.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/ADT/ilist_node_options.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/IR/Argument.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/IR/Value.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/IR/Use.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/IR/Value.def \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/IR/BasicBlock.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/ADT/ilist.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/ADT/simple_ilist.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/ADT/ilist_base.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/ADT/ilist_iterator.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/IR/DebugProgramInstruction.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/IR/DebugLoc.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/IR/TrackingMDRef.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/IR/Metadata.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/ADT/PointerUnion.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/IR/Constant.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/IR/User.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/IR/Metadata.def \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/IR/Instruction.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/ADT/Bitfields.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/IR/SymbolTableListTraits.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/Support/AtomicOrdering.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/IR/Instruction.def \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/IR/CallingConv.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/IR/GlobalObject.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/IR/GlobalValue.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/Support/MD5.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/Support/Endian.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/IR/OperandTraits.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/IR/GlobalAlias.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/IR/GlobalIFunc.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/IR/GlobalVariable.h \
+  /Users/28rj102230/Developer/Mariner/extern/cling/include/llvm/IR/ProfileSummary.h

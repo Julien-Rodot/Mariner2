@@ -1,0 +1,212 @@
+[
+{
+  "directory": "/Users/28rj102230/Developer/Mariner/build",
+  "command": "/usr/bin/clang++ -DMariner_EXPORTS -I/Users/28rj102230/Developer/Mariner/include -I/Users/28rj102230/Developer/Mariner/extern/glad/include -isystem /Users/28rj102230/Developer/Mariner/extern/cling/include -isystem /Users/28rj102230/homebrew/include -g -std=gnu++2b -arch arm64 -fPIC -g -O0 -Wno-deprecated -Wno-deprecated-declarations -o CMakeFiles/Mariner.dir/src/App/m_AppContextService.cpp.o -c /Users/28rj102230/Developer/Mariner/src/App/m_AppContextService.cpp",
+  "file": "/Users/28rj102230/Developer/Mariner/src/App/m_AppContextService.cpp",
+  "output": "CMakeFiles/Mariner.dir/src/App/m_AppContextService.cpp.o"
+},
+{
+  "directory": "/Users/28rj102230/Developer/Mariner/build",
+  "command": "/usr/bin/clang++ -DMariner_EXPORTS -I/Users/28rj102230/Developer/Mariner/include -I/Users/28rj102230/Developer/Mariner/extern/glad/include -isystem /Users/28rj102230/Developer/Mariner/extern/cling/include -isystem /Users/28rj102230/homebrew/include -g -std=gnu++2b -arch arm64 -fPIC -g -O0 -Wno-deprecated -Wno-deprecated-declarations -o CMakeFiles/Mariner.dir/src/App/m_Application.cpp.o -c /Users/28rj102230/Developer/Mariner/src/App/m_Application.cpp",
+  "file": "/Users/28rj102230/Developer/Mariner/src/App/m_Application.cpp",
+  "output": "CMakeFiles/Mariner.dir/src/App/m_Application.cpp.o"
+},
+{
+  "directory": "/Users/28rj102230/Developer/Mariner/build",
+  "command": "/usr/bin/clang++ -DMariner_EXPORTS -I/Users/28rj102230/Developer/Mariner/include -I/Users/28rj102230/Developer/Mariner/extern/glad/include -isystem /Users/28rj102230/Developer/Mariner/extern/cling/include -isystem /Users/28rj102230/homebrew/include -g -std=gnu++2b -arch arm64 -fPIC -g -O0 -Wno-deprecated -Wno-deprecated-declarations -o CMakeFiles/Mariner.dir/src/App/m_Entry.cpp.o -c /Users/28rj102230/Developer/Mariner/src/App/m_Entry.cpp",
+  "file": "/Users/28rj102230/Developer/Mariner/src/App/m_Entry.cpp",
+  "output": "CMakeFiles/Mariner.dir/src/App/m_Entry.cpp.o"
+},
+{
+  "directory": "/Users/28rj102230/Developer/Mariner/build",
+  "command": "/usr/bin/clang++ -DMariner_EXPORTS -I/Users/28rj102230/Developer/Mariner/include -I/Users/28rj102230/Developer/Mariner/extern/glad/include -isystem /Users/28rj102230/Developer/Mariner/extern/cling/include -isystem /Users/28rj102230/homebrew/include -g -std=gnu++2b -arch arm64 -fPIC -g -O0 -Wno-deprecated -Wno-deprecated-declarations -o CMakeFiles/Mariner.dir/src/Core/m_EngineContextService.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Core/m_EngineContextService.cpp",
+  "file": "/Users/28rj102230/Developer/Mariner/src/Core/m_EngineContextService.cpp",
+  "output": "CMakeFiles/Mariner.dir/src/Core/m_EngineContextService.cpp.o"
+},
+{
+  "directory": "/Users/28rj102230/Developer/Mariner/build",
+  "command": "/usr/bin/clang++ -DMariner_EXPORTS -I/Users/28rj102230/Developer/Mariner/include -I/Users/28rj102230/Developer/Mariner/extern/glad/include -isystem /Users/28rj102230/Developer/Mariner/extern/cling/include -isystem /Users/28rj102230/homebrew/include -g -std=gnu++2b -arch arm64 -fPIC -g -O0 -Wno-deprecated -Wno-deprecated-declarations -o CMakeFiles/Mariner.dir/src/Libraries/m_Array.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Libraries/m_Array.cpp",
+  "file": "/Users/28rj102230/Developer/Mariner/src/Libraries/m_Array.cpp",
+  "output": "CMakeFiles/Mariner.dir/src/Libraries/m_Array.cpp.o"
+},
+{
+  "directory": "/Users/28rj102230/Developer/Mariner/build",
+  "command": "/usr/bin/clang++ -DMariner_EXPORTS -I/Users/28rj102230/Developer/Mariner/include -I/Users/28rj102230/Developer/Mariner/extern/glad/include -isystem /Users/28rj102230/Developer/Mariner/extern/cling/include -isystem /Users/28rj102230/homebrew/include -g -std=gnu++2b -arch arm64 -fPIC -g -O0 -Wno-deprecated -Wno-deprecated-declarations -o CMakeFiles/Mariner.dir/src/Libraries/m_Color.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Libraries/m_Color.cpp",
+  "file": "/Users/28rj102230/Developer/Mariner/src/Libraries/m_Color.cpp",
+  "output": "CMakeFiles/Mariner.dir/src/Libraries/m_Color.cpp.o"
+},
+{
+  "directory": "/Users/28rj102230/Developer/Mariner/build",
+  "command": "/usr/bin/clang++ -DMariner_EXPORTS -I/Users/28rj102230/Developer/Mariner/include -I/Users/28rj102230/Developer/Mariner/extern/glad/include -isystem /Users/28rj102230/Developer/Mariner/extern/cling/include -isystem /Users/28rj102230/homebrew/include -g -std=gnu++2b -arch arm64 -fPIC -g -O0 -Wno-deprecated -Wno-deprecated-declarations -o CMakeFiles/Mariner.dir/src/Libraries/m_Dictionary.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Libraries/m_Dictionary.cpp",
+  "file": "/Users/28rj102230/Developer/Mariner/src/Libraries/m_Dictionary.cpp",
+  "output": "CMakeFiles/Mariner.dir/src/Libraries/m_Dictionary.cpp.o"
+},
+{
+  "directory": "/Users/28rj102230/Developer/Mariner/build",
+  "command": "/usr/bin/clang++ -DMariner_EXPORTS -I/Users/28rj102230/Developer/Mariner/include -I/Users/28rj102230/Developer/Mariner/extern/glad/include -isystem /Users/28rj102230/Developer/Mariner/extern/cling/include -isystem /Users/28rj102230/homebrew/include -g -std=gnu++2b -arch arm64 -fPIC -g -O0 -Wno-deprecated -Wno-deprecated-declarations -o CMakeFiles/Mariner.dir/src/Libraries/m_Instance.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Libraries/m_Instance.cpp",
+  "file": "/Users/28rj102230/Developer/Mariner/src/Libraries/m_Instance.cpp",
+  "output": "CMakeFiles/Mariner.dir/src/Libraries/m_Instance.cpp.o"
+},
+{
+  "directory": "/Users/28rj102230/Developer/Mariner/build",
+  "command": "/usr/bin/clang++ -DMariner_EXPORTS -I/Users/28rj102230/Developer/Mariner/include -I/Users/28rj102230/Developer/Mariner/extern/glad/include -isystem /Users/28rj102230/Developer/Mariner/extern/cling/include -isystem /Users/28rj102230/homebrew/include -g -std=gnu++2b -arch arm64 -fPIC -g -O0 -Wno-deprecated -Wno-deprecated-declarations -o CMakeFiles/Mariner.dir/src/Libraries/m_Signal.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Libraries/m_Signal.cpp",
+  "file": "/Users/28rj102230/Developer/Mariner/src/Libraries/m_Signal.cpp",
+  "output": "CMakeFiles/Mariner.dir/src/Libraries/m_Signal.cpp.o"
+},
+{
+  "directory": "/Users/28rj102230/Developer/Mariner/build",
+  "command": "/usr/bin/clang++ -DMariner_EXPORTS -I/Users/28rj102230/Developer/Mariner/include -I/Users/28rj102230/Developer/Mariner/extern/glad/include -isystem /Users/28rj102230/Developer/Mariner/extern/cling/include -isystem /Users/28rj102230/homebrew/include -g -std=gnu++2b -arch arm64 -fPIC -g -O0 -Wno-deprecated -Wno-deprecated-declarations -o CMakeFiles/Mariner.dir/src/Libraries/m_SignalConnection.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Libraries/m_SignalConnection.cpp",
+  "file": "/Users/28rj102230/Developer/Mariner/src/Libraries/m_SignalConnection.cpp",
+  "output": "CMakeFiles/Mariner.dir/src/Libraries/m_SignalConnection.cpp.o"
+},
+{
+  "directory": "/Users/28rj102230/Developer/Mariner/build",
+  "command": "/usr/bin/clang++ -DMariner_EXPORTS -I/Users/28rj102230/Developer/Mariner/include -I/Users/28rj102230/Developer/Mariner/extern/glad/include -isystem /Users/28rj102230/Developer/Mariner/extern/cling/include -isystem /Users/28rj102230/homebrew/include -g -std=gnu++2b -arch arm64 -fPIC -g -O0 -Wno-deprecated -Wno-deprecated-declarations -o CMakeFiles/Mariner.dir/src/Libraries/m_String.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Libraries/m_String.cpp",
+  "file": "/Users/28rj102230/Developer/Mariner/src/Libraries/m_String.cpp",
+  "output": "CMakeFiles/Mariner.dir/src/Libraries/m_String.cpp.o"
+},
+{
+  "directory": "/Users/28rj102230/Developer/Mariner/build",
+  "command": "/usr/bin/clang++ -DMariner_EXPORTS -I/Users/28rj102230/Developer/Mariner/include -I/Users/28rj102230/Developer/Mariner/extern/glad/include -isystem /Users/28rj102230/Developer/Mariner/extern/cling/include -isystem /Users/28rj102230/homebrew/include -g -std=gnu++2b -arch arm64 -fPIC -g -O0 -Wno-deprecated -Wno-deprecated-declarations -o CMakeFiles/Mariner.dir/src/Libraries/m_Vector3D.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Libraries/m_Vector3D.cpp",
+  "file": "/Users/28rj102230/Developer/Mariner/src/Libraries/m_Vector3D.cpp",
+  "output": "CMakeFiles/Mariner.dir/src/Libraries/m_Vector3D.cpp.o"
+},
+{
+  "directory": "/Users/28rj102230/Developer/Mariner/build",
+  "command": "/usr/bin/clang++ -DMariner_EXPORTS -I/Users/28rj102230/Developer/Mariner/include -I/Users/28rj102230/Developer/Mariner/extern/glad/include -isystem /Users/28rj102230/Developer/Mariner/extern/cling/include -isystem /Users/28rj102230/homebrew/include -g -std=gnu++2b -arch arm64 -fPIC -g -O0 -Wno-deprecated -Wno-deprecated-declarations -o CMakeFiles/Mariner.dir/src/Objects/m_BasePart.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Objects/m_BasePart.cpp",
+  "file": "/Users/28rj102230/Developer/Mariner/src/Objects/m_BasePart.cpp",
+  "output": "CMakeFiles/Mariner.dir/src/Objects/m_BasePart.cpp.o"
+},
+{
+  "directory": "/Users/28rj102230/Developer/Mariner/build",
+  "command": "/usr/bin/clang++ -DMariner_EXPORTS -I/Users/28rj102230/Developer/Mariner/include -I/Users/28rj102230/Developer/Mariner/extern/glad/include -isystem /Users/28rj102230/Developer/Mariner/extern/cling/include -isystem /Users/28rj102230/homebrew/include -g -std=gnu++2b -arch arm64 -fPIC -g -O0 -Wno-deprecated -Wno-deprecated-declarations -o CMakeFiles/Mariner.dir/src/Objects/m_BaseScript.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Objects/m_BaseScript.cpp",
+  "file": "/Users/28rj102230/Developer/Mariner/src/Objects/m_BaseScript.cpp",
+  "output": "CMakeFiles/Mariner.dir/src/Objects/m_BaseScript.cpp.o"
+},
+{
+  "directory": "/Users/28rj102230/Developer/Mariner/build",
+  "command": "/usr/bin/clang++ -DMariner_EXPORTS -I/Users/28rj102230/Developer/Mariner/include -I/Users/28rj102230/Developer/Mariner/extern/glad/include -isystem /Users/28rj102230/Developer/Mariner/extern/cling/include -isystem /Users/28rj102230/homebrew/include -g -std=gnu++2b -arch arm64 -fPIC -g -O0 -Wno-deprecated -Wno-deprecated-declarations -o CMakeFiles/Mariner.dir/src/Objects/m_Camera.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Objects/m_Camera.cpp",
+  "file": "/Users/28rj102230/Developer/Mariner/src/Objects/m_Camera.cpp",
+  "output": "CMakeFiles/Mariner.dir/src/Objects/m_Camera.cpp.o"
+},
+{
+  "directory": "/Users/28rj102230/Developer/Mariner/build",
+  "command": "/usr/bin/clang++ -DMariner_EXPORTS -I/Users/28rj102230/Developer/Mariner/include -I/Users/28rj102230/Developer/Mariner/extern/glad/include -isystem /Users/28rj102230/Developer/Mariner/extern/cling/include -isystem /Users/28rj102230/homebrew/include -g -std=gnu++2b -arch arm64 -fPIC -g -O0 -Wno-deprecated -Wno-deprecated-declarations -o CMakeFiles/Mariner.dir/src/Objects/m_DataModel.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Objects/m_DataModel.cpp",
+  "file": "/Users/28rj102230/Developer/Mariner/src/Objects/m_DataModel.cpp",
+  "output": "CMakeFiles/Mariner.dir/src/Objects/m_DataModel.cpp.o"
+},
+{
+  "directory": "/Users/28rj102230/Developer/Mariner/build",
+  "command": "/usr/bin/clang++ -DMariner_EXPORTS -I/Users/28rj102230/Developer/Mariner/include -I/Users/28rj102230/Developer/Mariner/extern/glad/include -isystem /Users/28rj102230/Developer/Mariner/extern/cling/include -isystem /Users/28rj102230/homebrew/include -g -std=gnu++2b -arch arm64 -fPIC -g -O0 -Wno-deprecated -Wno-deprecated-declarations -o CMakeFiles/Mariner.dir/src/Objects/m_Job.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Objects/m_Job.cpp",
+  "file": "/Users/28rj102230/Developer/Mariner/src/Objects/m_Job.cpp",
+  "output": "CMakeFiles/Mariner.dir/src/Objects/m_Job.cpp.o"
+},
+{
+  "directory": "/Users/28rj102230/Developer/Mariner/build",
+  "command": "/usr/bin/clang++ -DMariner_EXPORTS -I/Users/28rj102230/Developer/Mariner/include -I/Users/28rj102230/Developer/Mariner/extern/glad/include -isystem /Users/28rj102230/Developer/Mariner/extern/cling/include -isystem /Users/28rj102230/homebrew/include -g -std=gnu++2b -arch arm64 -fPIC -g -O0 -Wno-deprecated -Wno-deprecated-declarations -o CMakeFiles/Mariner.dir/src/Objects/m_MeshPart.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Objects/m_MeshPart.cpp",
+  "file": "/Users/28rj102230/Developer/Mariner/src/Objects/m_MeshPart.cpp",
+  "output": "CMakeFiles/Mariner.dir/src/Objects/m_MeshPart.cpp.o"
+},
+{
+  "directory": "/Users/28rj102230/Developer/Mariner/build",
+  "command": "/usr/bin/clang++ -DMariner_EXPORTS -I/Users/28rj102230/Developer/Mariner/include -I/Users/28rj102230/Developer/Mariner/extern/glad/include -isystem /Users/28rj102230/Developer/Mariner/extern/cling/include -isystem /Users/28rj102230/homebrew/include -g -std=gnu++2b -arch arm64 -fPIC -g -O0 -Wno-deprecated -Wno-deprecated-declarations -o CMakeFiles/Mariner.dir/src/Objects/m_Object.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Objects/m_Object.cpp",
+  "file": "/Users/28rj102230/Developer/Mariner/src/Objects/m_Object.cpp",
+  "output": "CMakeFiles/Mariner.dir/src/Objects/m_Object.cpp.o"
+},
+{
+  "directory": "/Users/28rj102230/Developer/Mariner/build",
+  "command": "/usr/bin/clang++ -DMariner_EXPORTS -I/Users/28rj102230/Developer/Mariner/include -I/Users/28rj102230/Developer/Mariner/extern/glad/include -isystem /Users/28rj102230/Developer/Mariner/extern/cling/include -isystem /Users/28rj102230/homebrew/include -g -std=gnu++2b -arch arm64 -fPIC -g -O0 -Wno-deprecated -Wno-deprecated-declarations -o CMakeFiles/Mariner.dir/src/Objects/m_Part.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Objects/m_Part.cpp",
+  "file": "/Users/28rj102230/Developer/Mariner/src/Objects/m_Part.cpp",
+  "output": "CMakeFiles/Mariner.dir/src/Objects/m_Part.cpp.o"
+},
+{
+  "directory": "/Users/28rj102230/Developer/Mariner/build",
+  "command": "/usr/bin/clang++ -DMariner_EXPORTS -I/Users/28rj102230/Developer/Mariner/include -I/Users/28rj102230/Developer/Mariner/extern/glad/include -isystem /Users/28rj102230/Developer/Mariner/extern/cling/include -isystem /Users/28rj102230/homebrew/include -g -std=gnu++2b -arch arm64 -fPIC -g -O0 -Wno-deprecated -Wno-deprecated-declarations -o CMakeFiles/Mariner.dir/src/Objects/m_Script.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Objects/m_Script.cpp",
+  "file": "/Users/28rj102230/Developer/Mariner/src/Objects/m_Script.cpp",
+  "output": "CMakeFiles/Mariner.dir/src/Objects/m_Script.cpp.o"
+},
+{
+  "directory": "/Users/28rj102230/Developer/Mariner/build",
+  "command": "/usr/bin/clang++ -DMariner_EXPORTS -I/Users/28rj102230/Developer/Mariner/include -I/Users/28rj102230/Developer/Mariner/extern/glad/include -isystem /Users/28rj102230/Developer/Mariner/extern/cling/include -isystem /Users/28rj102230/homebrew/include -g -std=gnu++2b -arch arm64 -fPIC -g -O0 -Wno-deprecated -Wno-deprecated-declarations -o CMakeFiles/Mariner.dir/src/Objects/m_ServiceProvider.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Objects/m_ServiceProvider.cpp",
+  "file": "/Users/28rj102230/Developer/Mariner/src/Objects/m_ServiceProvider.cpp",
+  "output": "CMakeFiles/Mariner.dir/src/Objects/m_ServiceProvider.cpp.o"
+},
+{
+  "directory": "/Users/28rj102230/Developer/Mariner/build",
+  "command": "/usr/bin/clang++ -DMariner_EXPORTS -I/Users/28rj102230/Developer/Mariner/include -I/Users/28rj102230/Developer/Mariner/extern/glad/include -isystem /Users/28rj102230/Developer/Mariner/extern/cling/include -isystem /Users/28rj102230/homebrew/include -g -std=gnu++2b -arch arm64 -fPIC -g -O0 -Wno-deprecated -Wno-deprecated-declarations -o CMakeFiles/Mariner.dir/src/Objects/m_ShaderScript.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Objects/m_ShaderScript.cpp",
+  "file": "/Users/28rj102230/Developer/Mariner/src/Objects/m_ShaderScript.cpp",
+  "output": "CMakeFiles/Mariner.dir/src/Objects/m_ShaderScript.cpp.o"
+},
+{
+  "directory": "/Users/28rj102230/Developer/Mariner/build",
+  "command": "/usr/bin/clang++ -DMariner_EXPORTS -I/Users/28rj102230/Developer/Mariner/include -I/Users/28rj102230/Developer/Mariner/extern/glad/include -isystem /Users/28rj102230/Developer/Mariner/extern/cling/include -isystem /Users/28rj102230/homebrew/include -g -std=gnu++2b -arch arm64 -fPIC -g -O0 -Wno-deprecated -Wno-deprecated-declarations -o CMakeFiles/Mariner.dir/src/Objects/m_Thread.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Objects/m_Thread.cpp",
+  "file": "/Users/28rj102230/Developer/Mariner/src/Objects/m_Thread.cpp",
+  "output": "CMakeFiles/Mariner.dir/src/Objects/m_Thread.cpp.o"
+},
+{
+  "directory": "/Users/28rj102230/Developer/Mariner/build",
+  "command": "/usr/bin/clang++ -DMariner_EXPORTS -I/Users/28rj102230/Developer/Mariner/include -I/Users/28rj102230/Developer/Mariner/extern/glad/include -isystem /Users/28rj102230/Developer/Mariner/extern/cling/include -isystem /Users/28rj102230/homebrew/include -g -std=gnu++2b -arch arm64 -fPIC -g -O0 -Wno-deprecated -Wno-deprecated-declarations -o CMakeFiles/Mariner.dir/src/Objects/m_Window.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Objects/m_Window.cpp",
+  "file": "/Users/28rj102230/Developer/Mariner/src/Objects/m_Window.cpp",
+  "output": "CMakeFiles/Mariner.dir/src/Objects/m_Window.cpp.o"
+},
+{
+  "directory": "/Users/28rj102230/Developer/Mariner/build",
+  "command": "/usr/bin/clang++ -DMariner_EXPORTS -I/Users/28rj102230/Developer/Mariner/include -I/Users/28rj102230/Developer/Mariner/extern/glad/include -isystem /Users/28rj102230/Developer/Mariner/extern/cling/include -isystem /Users/28rj102230/homebrew/include -g -std=gnu++2b -arch arm64 -fPIC -g -O0 -Wno-deprecated -Wno-deprecated-declarations -o CMakeFiles/Mariner.dir/src/Services/m_MemStorageService.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Services/m_MemStorageService.cpp",
+  "file": "/Users/28rj102230/Developer/Mariner/src/Services/m_MemStorageService.cpp",
+  "output": "CMakeFiles/Mariner.dir/src/Services/m_MemStorageService.cpp.o"
+},
+{
+  "directory": "/Users/28rj102230/Developer/Mariner/build",
+  "command": "/usr/bin/clang++ -DMariner_EXPORTS -I/Users/28rj102230/Developer/Mariner/include -I/Users/28rj102230/Developer/Mariner/extern/glad/include -isystem /Users/28rj102230/Developer/Mariner/extern/cling/include -isystem /Users/28rj102230/homebrew/include -g -std=gnu++2b -arch arm64 -fPIC -g -O0 -Wno-deprecated -Wno-deprecated-declarations -o CMakeFiles/Mariner.dir/src/Services/m_MessageBusService.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Services/m_MessageBusService.cpp",
+  "file": "/Users/28rj102230/Developer/Mariner/src/Services/m_MessageBusService.cpp",
+  "output": "CMakeFiles/Mariner.dir/src/Services/m_MessageBusService.cpp.o"
+},
+{
+  "directory": "/Users/28rj102230/Developer/Mariner/build",
+  "command": "/usr/bin/clang++ -DMariner_EXPORTS -I/Users/28rj102230/Developer/Mariner/include -I/Users/28rj102230/Developer/Mariner/extern/glad/include -isystem /Users/28rj102230/Developer/Mariner/extern/cling/include -isystem /Users/28rj102230/homebrew/include -g -std=gnu++2b -arch arm64 -fPIC -g -O0 -Wno-deprecated -Wno-deprecated-declarations -o CMakeFiles/Mariner.dir/src/Services/m_RunService.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Services/m_RunService.cpp",
+  "file": "/Users/28rj102230/Developer/Mariner/src/Services/m_RunService.cpp",
+  "output": "CMakeFiles/Mariner.dir/src/Services/m_RunService.cpp.o"
+},
+{
+  "directory": "/Users/28rj102230/Developer/Mariner/build",
+  "command": "/usr/bin/clang++ -DMariner_EXPORTS -I/Users/28rj102230/Developer/Mariner/include -I/Users/28rj102230/Developer/Mariner/extern/glad/include -isystem /Users/28rj102230/Developer/Mariner/extern/cling/include -isystem /Users/28rj102230/homebrew/include -g -std=gnu++2b -arch arm64 -fPIC -g -O0 -Wno-deprecated -Wno-deprecated-declarations -o CMakeFiles/Mariner.dir/src/Services/m_ScriptContext.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Services/m_ScriptContext.cpp",
+  "file": "/Users/28rj102230/Developer/Mariner/src/Services/m_ScriptContext.cpp",
+  "output": "CMakeFiles/Mariner.dir/src/Services/m_ScriptContext.cpp.o"
+},
+{
+  "directory": "/Users/28rj102230/Developer/Mariner/build",
+  "command": "/usr/bin/clang++ -DMariner_EXPORTS -I/Users/28rj102230/Developer/Mariner/include -I/Users/28rj102230/Developer/Mariner/extern/glad/include -isystem /Users/28rj102230/Developer/Mariner/extern/cling/include -isystem /Users/28rj102230/homebrew/include -g -std=gnu++2b -arch arm64 -fPIC -g -O0 -Wno-deprecated -Wno-deprecated-declarations -o CMakeFiles/Mariner.dir/src/Services/m_ShaderService.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Services/m_ShaderService.cpp",
+  "file": "/Users/28rj102230/Developer/Mariner/src/Services/m_ShaderService.cpp",
+  "output": "CMakeFiles/Mariner.dir/src/Services/m_ShaderService.cpp.o"
+},
+{
+  "directory": "/Users/28rj102230/Developer/Mariner/build",
+  "command": "/usr/bin/clang++ -DMariner_EXPORTS -I/Users/28rj102230/Developer/Mariner/include -I/Users/28rj102230/Developer/Mariner/extern/glad/include -isystem /Users/28rj102230/Developer/Mariner/extern/cling/include -isystem /Users/28rj102230/homebrew/include -g -std=gnu++2b -arch arm64 -fPIC -g -O0 -Wno-deprecated -Wno-deprecated-declarations -o CMakeFiles/Mariner.dir/src/Services/m_TaskScheduler.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Services/m_TaskScheduler.cpp",
+  "file": "/Users/28rj102230/Developer/Mariner/src/Services/m_TaskScheduler.cpp",
+  "output": "CMakeFiles/Mariner.dir/src/Services/m_TaskScheduler.cpp.o"
+},
+{
+  "directory": "/Users/28rj102230/Developer/Mariner/build",
+  "command": "/usr/bin/clang++ -DMariner_EXPORTS -I/Users/28rj102230/Developer/Mariner/include -I/Users/28rj102230/Developer/Mariner/extern/glad/include -isystem /Users/28rj102230/Developer/Mariner/extern/cling/include -isystem /Users/28rj102230/homebrew/include -g -std=gnu++2b -arch arm64 -fPIC -g -O0 -Wno-deprecated -Wno-deprecated-declarations -o CMakeFiles/Mariner.dir/src/Services/m_Workspace.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Services/m_Workspace.cpp",
+  "file": "/Users/28rj102230/Developer/Mariner/src/Services/m_Workspace.cpp",
+  "output": "CMakeFiles/Mariner.dir/src/Services/m_Workspace.cpp.o"
+},
+{
+  "directory": "/Users/28rj102230/Developer/Mariner/build",
+  "command": "/usr/bin/clang++ -DMariner_EXPORTS -I/Users/28rj102230/Developer/Mariner/include -I/Users/28rj102230/Developer/Mariner/extern/glad/include -isystem /Users/28rj102230/Developer/Mariner/extern/cling/include -isystem /Users/28rj102230/homebrew/include -g -std=gnu++2b -arch arm64 -fPIC -g -O0 -Wno-deprecated -Wno-deprecated-declarations -o CMakeFiles/Mariner.dir/src/Utils/m_Memory.cpp.o -c /Users/28rj102230/Developer/Mariner/src/Utils/m_Memory.cpp",
+  "file": "/Users/28rj102230/Developer/Mariner/src/Utils/m_Memory.cpp",
+  "output": "CMakeFiles/Mariner.dir/src/Utils/m_Memory.cpp.o"
+},
+{
+  "directory": "/Users/28rj102230/Developer/Mariner/build",
+  "command": "/usr/bin/clang -DMariner_EXPORTS -I/Users/28rj102230/Developer/Mariner/include -I/Users/28rj102230/Developer/Mariner/extern/glad/include -isystem /Users/28rj102230/Developer/Mariner/extern/cling/include -isystem /Users/28rj102230/homebrew/include -g -arch arm64 -fPIC -g -O0 -Wno-deprecated -Wno-deprecated-declarations -o CMakeFiles/Mariner.dir/extern/glad/src/glad.c.o -c /Users/28rj102230/Developer/Mariner/extern/glad/src/glad.c",
+  "file": "/Users/28rj102230/Developer/Mariner/extern/glad/src/glad.c",
+  "output": "CMakeFiles/Mariner.dir/extern/glad/src/glad.c.o"
+},
+{
+  "directory": "/Users/28rj102230/Developer/Mariner/build",
+  "command": "/usr/bin/clang++  -I/Users/28rj102230/Developer/Mariner/include -I/Users/28rj102230/Developer/Mariner/extern/glad/include -isystem /Users/28rj102230/Developer/Mariner/extern/cling/include -isystem /Users/28rj102230/homebrew/include -g -std=gnu++2b -arch arm64 -g -O0 -Wno-deprecated -Wno-deprecated-declarations -o CMakeFiles/MarinerExample.dir/examples/main.cpp.o -c /Users/28rj102230/Developer/Mariner/examples/main.cpp",
+  "file": "/Users/28rj102230/Developer/Mariner/examples/main.cpp",
+  "output": "CMakeFiles/MarinerExample.dir/examples/main.cpp.o"
+}
+]

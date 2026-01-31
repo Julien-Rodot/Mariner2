@@ -20,15 +20,6 @@ namespace Mariner {
             Instance->Name = "Workspace";
             Instance->ClassName = "m_Workspace";
             m_WorkspaceThisPointer = Instance;
-
-            if(!Instance->FindFirstChildOfClass("m_Camera")) {
-
-                Mariner::Objects::m_Camera* Camera = Mariner::Objects::m_Camera::New();
-                Camera->SetParent(Instance);
-                Instance->CurrrentCamera = Camera;
-
-            }
-
             Instance->WorkspaceFunction();
             return Instance;
 

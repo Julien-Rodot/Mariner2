@@ -11,8 +11,9 @@ using namespace Mariner::Services;
 
 int main() {
 
-    m_Workspace* Workspace = m_Game->GetService<m_Workspace>();
+    auto* Workspace = m_Game->GetService<m_Workspace>();
     auto RunService = m_Game->GetService<m_RunService>();
+    auto ScriptContext = m_Game->GetService<m_ScriptContext>();
     auto MessageBusService = m_Game->GetService<m_MessageBusService>();
 
     auto MyPart = m_Instance::New<m_BasePart>();
@@ -39,16 +40,21 @@ int main() {
 
     m_Matrix<double> Multiplied2 = MyMatrix2 * MyMatrix;
     Multiplied2.Print();
-
     
     auto Camera = Workspace->CurrrentCamera;
-    Camera->CameraSubject = MyPart;
+    //Camera->CameraSubject = MyPart;
 
     MessageBusService->OnIncommingMessage.Connect([](m_String Message){
 
         printf("%s\n", Message.ToCString());
 
     });
+
+    auto MyScript = m_Instance::New<m_BaseScript>();
+    MyScript->Source = "#include <stdio.h> printf('Hello!'); return;";
+    MyScript->SetParent(m_Game);
+
+    ScriptContext->ExecuteScript();
 
     RunService->Run();
 

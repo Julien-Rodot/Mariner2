@@ -6,11 +6,9 @@
 
 #include "Libraries/m_Array.h"
 
-namespace Mariner
-{
+namespace Mariner {
 
-    namespace Libraries
-    {
+    namespace Libraries {
 
         template<typename T>
         m_Array<T>* m_Array<T>::OpenLibrary() {

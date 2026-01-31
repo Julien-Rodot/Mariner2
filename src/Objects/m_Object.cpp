@@ -68,6 +68,32 @@ namespace Mariner {
             
         }
 
+        Mariner::Libraries::m_Array<m_Object*> m_Object::GetDescendants() {
+
+            Mariner::Libraries::m_Array<m_Object*> Result = {};
+
+            for (m_Object* Child : Children) {
+
+                if (!Child) {
+
+                    continue;
+
+                }
+
+                Mariner::Libraries::m_Array<m_Object*>::Add(Result, Child);
+                Mariner::Libraries::m_Array<m_Object*> ChildDescendants = Child->GetDescendants();
+
+                for (m_Object* Desc : ChildDescendants) {
+
+                    Mariner::Libraries::m_Array<m_Object*>::Add(Result, Desc);
+
+                }
+
+            }
+
+            return Result;
+        }
+
         void m_Object::Destroy() {
 
             delete this;

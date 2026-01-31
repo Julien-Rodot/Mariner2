@@ -311,6 +311,54 @@ src/Libraries/m_Array.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Libraries/m_Array.cpp.s
 .PHONY : src/Libraries/m_Array.cpp.s
 
+src/Libraries/m_Color.o: src/Libraries/m_Color.cpp.o
+.PHONY : src/Libraries/m_Color.o
+
+# target to build an object file
+src/Libraries/m_Color.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Libraries/m_Color.cpp.o
+.PHONY : src/Libraries/m_Color.cpp.o
+
+src/Libraries/m_Color.i: src/Libraries/m_Color.cpp.i
+.PHONY : src/Libraries/m_Color.i
+
+# target to preprocess a source file
+src/Libraries/m_Color.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Libraries/m_Color.cpp.i
+.PHONY : src/Libraries/m_Color.cpp.i
+
+src/Libraries/m_Color.s: src/Libraries/m_Color.cpp.s
+.PHONY : src/Libraries/m_Color.s
+
+# target to generate assembly for a file
+src/Libraries/m_Color.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Libraries/m_Color.cpp.s
+.PHONY : src/Libraries/m_Color.cpp.s
+
+src/Libraries/m_Dictionary.o: src/Libraries/m_Dictionary.cpp.o
+.PHONY : src/Libraries/m_Dictionary.o
+
+# target to build an object file
+src/Libraries/m_Dictionary.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Libraries/m_Dictionary.cpp.o
+.PHONY : src/Libraries/m_Dictionary.cpp.o
+
+src/Libraries/m_Dictionary.i: src/Libraries/m_Dictionary.cpp.i
+.PHONY : src/Libraries/m_Dictionary.i
+
+# target to preprocess a source file
+src/Libraries/m_Dictionary.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Libraries/m_Dictionary.cpp.i
+.PHONY : src/Libraries/m_Dictionary.cpp.i
+
+src/Libraries/m_Dictionary.s: src/Libraries/m_Dictionary.cpp.s
+.PHONY : src/Libraries/m_Dictionary.s
+
+# target to generate assembly for a file
+src/Libraries/m_Dictionary.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Libraries/m_Dictionary.cpp.s
+.PHONY : src/Libraries/m_Dictionary.cpp.s
+
 src/Libraries/m_Instance.o: src/Libraries/m_Instance.cpp.o
 .PHONY : src/Libraries/m_Instance.o
 
@@ -454,6 +502,30 @@ src/Objects/m_BasePart.s: src/Objects/m_BasePart.cpp.s
 src/Objects/m_BasePart.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Objects/m_BasePart.cpp.s
 .PHONY : src/Objects/m_BasePart.cpp.s
+
+src/Objects/m_BaseScript.o: src/Objects/m_BaseScript.cpp.o
+.PHONY : src/Objects/m_BaseScript.o
+
+# target to build an object file
+src/Objects/m_BaseScript.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Objects/m_BaseScript.cpp.o
+.PHONY : src/Objects/m_BaseScript.cpp.o
+
+src/Objects/m_BaseScript.i: src/Objects/m_BaseScript.cpp.i
+.PHONY : src/Objects/m_BaseScript.i
+
+# target to preprocess a source file
+src/Objects/m_BaseScript.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Objects/m_BaseScript.cpp.i
+.PHONY : src/Objects/m_BaseScript.cpp.i
+
+src/Objects/m_BaseScript.s: src/Objects/m_BaseScript.cpp.s
+.PHONY : src/Objects/m_BaseScript.s
+
+# target to generate assembly for a file
+src/Objects/m_BaseScript.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Objects/m_BaseScript.cpp.s
+.PHONY : src/Objects/m_BaseScript.cpp.s
 
 src/Objects/m_Camera.o: src/Objects/m_Camera.cpp.o
 .PHONY : src/Objects/m_Camera.o
@@ -599,6 +671,30 @@ src/Objects/m_Part.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Objects/m_Part.cpp.s
 .PHONY : src/Objects/m_Part.cpp.s
 
+src/Objects/m_Script.o: src/Objects/m_Script.cpp.o
+.PHONY : src/Objects/m_Script.o
+
+# target to build an object file
+src/Objects/m_Script.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Objects/m_Script.cpp.o
+.PHONY : src/Objects/m_Script.cpp.o
+
+src/Objects/m_Script.i: src/Objects/m_Script.cpp.i
+.PHONY : src/Objects/m_Script.i
+
+# target to preprocess a source file
+src/Objects/m_Script.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Objects/m_Script.cpp.i
+.PHONY : src/Objects/m_Script.cpp.i
+
+src/Objects/m_Script.s: src/Objects/m_Script.cpp.s
+.PHONY : src/Objects/m_Script.s
+
+# target to generate assembly for a file
+src/Objects/m_Script.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Objects/m_Script.cpp.s
+.PHONY : src/Objects/m_Script.cpp.s
+
 src/Objects/m_ServiceProvider.o: src/Objects/m_ServiceProvider.cpp.o
 .PHONY : src/Objects/m_ServiceProvider.o
 
@@ -622,6 +718,30 @@ src/Objects/m_ServiceProvider.s: src/Objects/m_ServiceProvider.cpp.s
 src/Objects/m_ServiceProvider.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Objects/m_ServiceProvider.cpp.s
 .PHONY : src/Objects/m_ServiceProvider.cpp.s
+
+src/Objects/m_ShaderScript.o: src/Objects/m_ShaderScript.cpp.o
+.PHONY : src/Objects/m_ShaderScript.o
+
+# target to build an object file
+src/Objects/m_ShaderScript.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Objects/m_ShaderScript.cpp.o
+.PHONY : src/Objects/m_ShaderScript.cpp.o
+
+src/Objects/m_ShaderScript.i: src/Objects/m_ShaderScript.cpp.i
+.PHONY : src/Objects/m_ShaderScript.i
+
+# target to preprocess a source file
+src/Objects/m_ShaderScript.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Objects/m_ShaderScript.cpp.i
+.PHONY : src/Objects/m_ShaderScript.cpp.i
+
+src/Objects/m_ShaderScript.s: src/Objects/m_ShaderScript.cpp.s
+.PHONY : src/Objects/m_ShaderScript.s
+
+# target to generate assembly for a file
+src/Objects/m_ShaderScript.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Objects/m_ShaderScript.cpp.s
+.PHONY : src/Objects/m_ShaderScript.cpp.s
 
 src/Objects/m_Thread.o: src/Objects/m_Thread.cpp.o
 .PHONY : src/Objects/m_Thread.o
@@ -743,6 +863,54 @@ src/Services/m_RunService.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Services/m_RunService.cpp.s
 .PHONY : src/Services/m_RunService.cpp.s
 
+src/Services/m_ScriptContext.o: src/Services/m_ScriptContext.cpp.o
+.PHONY : src/Services/m_ScriptContext.o
+
+# target to build an object file
+src/Services/m_ScriptContext.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Services/m_ScriptContext.cpp.o
+.PHONY : src/Services/m_ScriptContext.cpp.o
+
+src/Services/m_ScriptContext.i: src/Services/m_ScriptContext.cpp.i
+.PHONY : src/Services/m_ScriptContext.i
+
+# target to preprocess a source file
+src/Services/m_ScriptContext.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Services/m_ScriptContext.cpp.i
+.PHONY : src/Services/m_ScriptContext.cpp.i
+
+src/Services/m_ScriptContext.s: src/Services/m_ScriptContext.cpp.s
+.PHONY : src/Services/m_ScriptContext.s
+
+# target to generate assembly for a file
+src/Services/m_ScriptContext.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Services/m_ScriptContext.cpp.s
+.PHONY : src/Services/m_ScriptContext.cpp.s
+
+src/Services/m_ShaderService.o: src/Services/m_ShaderService.cpp.o
+.PHONY : src/Services/m_ShaderService.o
+
+# target to build an object file
+src/Services/m_ShaderService.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Services/m_ShaderService.cpp.o
+.PHONY : src/Services/m_ShaderService.cpp.o
+
+src/Services/m_ShaderService.i: src/Services/m_ShaderService.cpp.i
+.PHONY : src/Services/m_ShaderService.i
+
+# target to preprocess a source file
+src/Services/m_ShaderService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Services/m_ShaderService.cpp.i
+.PHONY : src/Services/m_ShaderService.cpp.i
+
+src/Services/m_ShaderService.s: src/Services/m_ShaderService.cpp.s
+.PHONY : src/Services/m_ShaderService.s
+
+# target to generate assembly for a file
+src/Services/m_ShaderService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mariner.dir/build.make CMakeFiles/Mariner.dir/src/Services/m_ShaderService.cpp.s
+.PHONY : src/Services/m_ShaderService.cpp.s
+
 src/Services/m_TaskScheduler.o: src/Services/m_TaskScheduler.cpp.o
 .PHONY : src/Services/m_TaskScheduler.o
 
@@ -846,6 +1014,12 @@ help:
 	@echo "... src/Libraries/m_Array.o"
 	@echo "... src/Libraries/m_Array.i"
 	@echo "... src/Libraries/m_Array.s"
+	@echo "... src/Libraries/m_Color.o"
+	@echo "... src/Libraries/m_Color.i"
+	@echo "... src/Libraries/m_Color.s"
+	@echo "... src/Libraries/m_Dictionary.o"
+	@echo "... src/Libraries/m_Dictionary.i"
+	@echo "... src/Libraries/m_Dictionary.s"
 	@echo "... src/Libraries/m_Instance.o"
 	@echo "... src/Libraries/m_Instance.i"
 	@echo "... src/Libraries/m_Instance.s"
@@ -864,6 +1038,9 @@ help:
 	@echo "... src/Objects/m_BasePart.o"
 	@echo "... src/Objects/m_BasePart.i"
 	@echo "... src/Objects/m_BasePart.s"
+	@echo "... src/Objects/m_BaseScript.o"
+	@echo "... src/Objects/m_BaseScript.i"
+	@echo "... src/Objects/m_BaseScript.s"
 	@echo "... src/Objects/m_Camera.o"
 	@echo "... src/Objects/m_Camera.i"
 	@echo "... src/Objects/m_Camera.s"
@@ -882,9 +1059,15 @@ help:
 	@echo "... src/Objects/m_Part.o"
 	@echo "... src/Objects/m_Part.i"
 	@echo "... src/Objects/m_Part.s"
+	@echo "... src/Objects/m_Script.o"
+	@echo "... src/Objects/m_Script.i"
+	@echo "... src/Objects/m_Script.s"
 	@echo "... src/Objects/m_ServiceProvider.o"
 	@echo "... src/Objects/m_ServiceProvider.i"
 	@echo "... src/Objects/m_ServiceProvider.s"
+	@echo "... src/Objects/m_ShaderScript.o"
+	@echo "... src/Objects/m_ShaderScript.i"
+	@echo "... src/Objects/m_ShaderScript.s"
 	@echo "... src/Objects/m_Thread.o"
 	@echo "... src/Objects/m_Thread.i"
 	@echo "... src/Objects/m_Thread.s"
@@ -900,6 +1083,12 @@ help:
 	@echo "... src/Services/m_RunService.o"
 	@echo "... src/Services/m_RunService.i"
 	@echo "... src/Services/m_RunService.s"
+	@echo "... src/Services/m_ScriptContext.o"
+	@echo "... src/Services/m_ScriptContext.i"
+	@echo "... src/Services/m_ScriptContext.s"
+	@echo "... src/Services/m_ShaderService.o"
+	@echo "... src/Services/m_ShaderService.i"
+	@echo "... src/Services/m_ShaderService.s"
 	@echo "... src/Services/m_TaskScheduler.o"
 	@echo "... src/Services/m_TaskScheduler.i"
 	@echo "... src/Services/m_TaskScheduler.s"

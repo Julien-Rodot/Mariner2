@@ -1,5 +1,6 @@
 #pragma once
 
+#include "Mariner/MarinerTypes.h"
 #include "Libraries/m_Array.h"
 #include "Libraries/m_Instance.h"
 #include "Libraries/m_String.h"
@@ -7,6 +8,7 @@
 #include "Libraries/m_SignalConnection.h"
 #include "Libraries/m_Vector3D.h"
 #include "Libraries/m_Matrix.h"
+#include "Libraries/m_Color.h"
 #include "Utils/m_Memory.h"
 #include "Objects/m_Object.h"
 #include "Objects/m_DataModel.h"
@@ -16,11 +18,13 @@
 #include "Objects/m_Window.h"
 #include "Objects/m_Camera.h"
 #include "Objects/m_BasePart.h"
+#include "Objects/m_BaseScript.h"
 #include "Services/m_TaskScheduler.h"
 #include "Services/m_RunService.h"
 #include "Services/m_MemStorageService.h"
 #include "Services/m_MessageBusService.h"
 #include "Services/m_Workspace.h"
+#include "Services/m_ScriptContext.h"
 
 // This exists because I am too slack to define a StartEngine function 
 // or something similar along the lines of that.
@@ -43,5 +47,4 @@ struct InitalizeMariner {
 };
 
 static InitalizeMariner Initialize;
-
 inline Mariner::Objects::m_DataModel* m_Game = Mariner::Objects::m_DataModel::New();
