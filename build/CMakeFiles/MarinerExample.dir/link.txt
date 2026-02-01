@@ -1,1 +1,0 @@
-/usr/bin/clang++ -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -g CMakeFiles/MarinerExample.dir/examples/main.cpp.o -o MarinerExample  -Wl,-rpath,/Users/28rj102230/Developer/Mariner/build -Wl,-rpath,/Users/28rj102230/homebrew/lib libMariner.dylib /Users/28rj102230/homebrew/lib/libglfw.3.4.dylib

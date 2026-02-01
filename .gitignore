@@ -1,0 +1,26 @@
+/# Build directory
+/build/
+
+# CMake and build system files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+rules.ninja
+build.ninja
+
+# Object, library and binary files
+*.o
+*.obj
+*.so
+*.a
+*.dylib
+*.lib
+*.dll
+*.exe
+
+# Editor and OS files
+.DS_Store
+*~
+*.swp
