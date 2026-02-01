@@ -41,7 +41,6 @@ int main() {
     m_Matrix<double> Multiplied2 = MyMatrix2 * MyMatrix;
     Multiplied2.Print();
     
-    auto Camera = Workspace->CurrrentCamera;
     //Camera->CameraSubject = MyPart;
 
     MessageBusService->OnIncommingMessage.Connect([](m_String Message){
