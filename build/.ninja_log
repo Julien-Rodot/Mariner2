@@ -1,5 +1,5 @@
 # ninja log v7
-1	14	1769909984865751540	/Users/28rj102230/Developer/Mariner/build/CMakeFiles/cmake.verify_globs	a35efcaa110cbea3
+1	13	1769910167273260188	/Users/28rj102230/Developer/Mariner/build/CMakeFiles/cmake.verify_globs	a35efcaa110cbea3
 20	77	1769909984884033658	CMakeFiles/Mariner.dir/src/Libraries/m_SignalConnection.cpp.o	b7e68c46b2e5b013
 18	84	1769909984882562930	CMakeFiles/Mariner.dir/src/Libraries/m_Instance.cpp.o	2968e79db6d8ab9f
 18	99	1769909984882792141	CMakeFiles/Mariner.dir/src/Libraries/m_Signal.cpp.o	956fa73b85805e63
@@ -35,8 +35,5 @@
 1508	2327	1769909986372602998	CMakeFiles/Mariner.dir/src/Services/m_TaskScheduler.cpp.o	d53c8c20f154e95e
 1424	2455	1769909986288426924	CMakeFiles/Mariner.dir/src/Services/m_ScriptContext.cpp.o	99d0307d9896313b
 2456	2893	1769909987320170163	libMariner.dylib	f5736e9dbc104159
-1737	2906	1769909986601437947	CMakeFiles/MarinerExample.dir/examples/main.cpp.o	35af07d823bcb547
-2906	2946	1769909987770513449	MarinerExample	6733c4d20f0163b2
-1	13	1769910167273260188	/Users/28rj102230/Developer/Mariner/build/CMakeFiles/cmake.verify_globs	a35efcaa110cbea3
 18	846	1769910167289697316	CMakeFiles/MarinerExample.dir/examples/main.cpp.o	35af07d823bcb547
 847	888	1769910168118391714	MarinerExample	6733c4d20f0163b2
