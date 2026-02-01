@@ -50,7 +50,7 @@ int main() {
     });
 
     auto MyScript = m_Instance::New<m_BaseScript>();
-    MyScript->Source = "#include <stdio.h> printf('Hello!'); return;";
+    MyScript->Source = "int x = 1;";
     MyScript->SetParent(m_Game);
 
     ScriptContext->ExecuteScript();

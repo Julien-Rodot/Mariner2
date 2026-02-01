@@ -35,7 +35,7 @@ namespace Mariner {
 
             private:
 
-                Mariner::Libraries::m_Dictionary<Mariner::Objects::m_BaseScript*, std::unique_ptr<cling::Interpreter>> ScriptsToExecute = {};
+                Mariner::Libraries::m_Dictionary<Mariner::Objects::m_BaseScript*, cling::Interpreter*> ScriptsToExecute = {};
 
         };
 

@@ -34,23 +34,20 @@
                 auto* Script = dynamic_cast<Mariner::Objects::m_BaseScript*>(Obj);
                 if (!Script) continue;
 
-                std::unique_ptr<cling::Interpreter>* InterpreterPtr =
-                    ScriptsToExecute.Get(Script);
+                cling::Interpreter* InterpreterPtr = *ScriptsToExecute.Get(Script);
 
                 if (!InterpreterPtr) {
 
                     int argc = 1;
                     const char* argv[] = { "mariner" };
-
-                    auto NewInterpreter = std::make_unique<cling::Interpreter>(argc, argv, "/Users/28rj102230/Developer/Mariner/extern/cling");
-                    ScriptsToExecute.Add(Script, std::move(NewInterpreter));
-
-                    InterpreterPtr = ScriptsToExecute.Get(Script);
+                    ScriptsToExecute.Add(Script, new cling::Interpreter(argc, argv, "usr/local"));
+                    InterpreterPtr = *ScriptsToExecute.Get(Script); // now it exists
+                    
                 }
 
                 if (Script->IsLoaded) continue;
 
-                cling::Interpreter& Interpreter = **InterpreterPtr;
+                cling::Interpreter& Interpreter = *InterpreterPtr;
 
                 cling::Value Result;
                 auto Status = Interpreter.process(Script->Source.ToCString(), &Result);
